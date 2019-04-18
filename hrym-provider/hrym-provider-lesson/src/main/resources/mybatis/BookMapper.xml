@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.lesson.mapper.BookMapper">
+    <resultMap id="baseResultMap" type="com.everg.hrym.api.lesson.entity.ItemCustom">
+        <id column="custom_id" property="itemId"/>
+        <result column="user_id" property="userId"/>
+        <result column="intro" property="intro"/>
+        <result column="custom_name" property="customName"/>
+        <result column="unit" property="unit"/>
+        <result column="privacy" property="privacy"/>
+    </resultMap>
+    <insert id="saveRecord" useGeneratedKeys="true" keyProperty="recordId" keyColumn="record_id">
+        insert into t_task_record_book(task_id,user_id,report_num,report_time,item_id,percent,record_method,ymd,year,month)
+            values
+            (#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{percent},#{recordMethod},from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+
+    </insert>
+    <update id="updateReport">
+        update t_bookcase set done_num=done_num+#{num},today_commit_num = today_commit_num + #{num},percent=#{percent},update_time=#{time} where index_id=#{indexId}
+    </update>
+    <select id="findFlockRecordBookByUuid" resultType="com.everg.hrym.api.lesson.entity.RecordCommon">
+        select index_id,user_id,item_id,done_num,create_time,update_time,is_exist from t_bookcase
+            where item_id = #{itemId} and user_id = #{uuid}
+    </select>
+
+</mapper>

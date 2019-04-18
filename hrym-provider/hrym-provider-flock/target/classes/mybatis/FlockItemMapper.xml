@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.flock.mapper.FlockItemMapper">
+
+
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        insert into t_flock_item(flock_id,item_id,item_content_id,unit,creater_id,`order`,type,day_done_num,total_done_num)
+        values(#{flockId},#{itemId},#{itemContentId},#{unit},#{createId},#{order},#{type},#{dayDoneNum},#{totalDoneNum})
+    </insert>
+    <update id="updateFlockItem">
+        update t_flock_item
+        set state = #{state}
+        where id = #{id}
+    </update>
+    <update id="updateStateByFlockId">
+        update t_flock_item set state = #{state}
+        where flock_id = #{flockId}
+    </update>
+    <update id="batchLogicRemoveFlockLesson">
+        update t_flock_item set state = #{state}
+        where flock_id = #{flockId} and `type` = #{type}
+        <if test="type==1">
+            and item_id = #{itemId}
+        </if>
+        <if test="type!=1">
+            and item_id =#{itemId} and item_content_id = #{itemContentId}
+        </if>
+    </update>
+
+    <select id="queryByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+        select id,flock_id,ft.item_id,ft.item_content_id,ft.unit,creater_id,`order`,ft.type,day_done_num,total_done_num,v.lesson_name lesson_name
+        from t_flock_item ft
+		left join t_flock_lesson_view v
+		on ft.item_id = v.item_id and ft.type = v.type and ft.item_content_id = v.item_content_id
+        where flock_id = #{flockId} and state = 0
+    </select>
+    <select id="selectByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+  	    select id,flock_id,f.item_id,f.item_content_id,f.unit,creater_id,`order`,f.type,day_done_num,total_done_num,
+	    lesson_name
+        from t_flock_item f
+	    left join t_flock_lesson_view v
+		on f.item_id = v.item_id and f.item_content_id = v.item_content_id and f.type = v.type
+        where flock_id = #{id} and state = 0
+    </select>
+
+
+    <select id="queryByFlockIdAndItemIdAndContentIdAndType" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+        select id,flock_id,item_id,item_content_id,unit,creater_id,`order`,type,day_done_num,total_done_num,state
+        from t_flock_item
+        where flock_id = #{flockId} and type = #{type}
+        <include refid="base_sql"/>
+    </select>
+    <select id="queryByFlockItemListByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+        SELECT m.day_done_num,w.lesson_name,m.item_id,m.item_content_id,m.type,m.unit
+        FROM t_flock_item m
+        left JOIN t_flock_lesson_view w on w.item_id =m.item_id AND w.item_content_id = w.item_content_id AND w.type=m.type
+        WHERE flock_id =#{flockId} AND state =0
+    </select>
+    <select id="queryByFlockIdJoinView" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+        select t.id,flock_id,t.item_id,t.item_content_id,creater_id,n.unit,`order`,t.type,day_done_num,total_done_num,t.state,v.lesson_name
+        ,u.nickname lessonCreateName ,u.avatar lessonAvatar
+        from t_flock_item  t
+        left join t_flock_lesson_view v
+        on v.item_id = t.item_id and v.item_content_id = t.item_content_id and v.type = t.type
+		left join t_item_user_unit n
+        on v.item_id = n.item_id and v.item_content_id = n.item_content_id and n.type = t.type and n.uuid = #{uuid}
+        left join t_user_account u
+		on u.uuid = v.user_id
+        where flock_id = #{id} and t.state = 0
+    </select>
+
+    <select id="queryByFlockItemByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+        SELECT flock_id,item_id,item_content_id,type FROM t_flock_item
+          WHERE flock_id =#{flockId} AND state=0
+    </select>
+
+    <select id="queryFlockItemNameByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+    select ft.total_done_num,ft.id, ft.item_id,ft.item_content_id,ft.type,v.lesson_name,k.`name` from t_flock_item ft
+    left join t_flock_lesson_view v
+    on v.item_id = ft.item_id and v.item_content_id = ft.item_content_id and v.type = ft.type
+    LEFT JOIN t_flock k ON k.id = ft.flock_id
+    where flock_id = #{flockId} order by ft.id desc
+    </select>
+    <select id="selectFlockItemList" resultType="com.everg.hrym.api.flock.entity.FlockItem">
+         SELECT m.item_id,m.version_name,m.item_content_id FROM ${contentTable}
+            WHERE m.item_content_id= #{itemContentId}
+    </select>
+    <select id="getFlockIdByItemAndUuid" resultType="java.lang.Integer">
+        select flock_id from t_flock_item_user_count
+             where item_id = #{itemId} and type = #{type}
+             and item_content_id = #{itemContentId}
+             and uuid=#{uuid}
+    </select>
+
+    <select id="queryFlockMessage" resultType="java.util.Map">
+        select FROM_UNIXTIME(create_time,'%Y%m%d') as timeStr,
+        <foreach collection="list" item="li" separator="," close=",">
+            (select sum(num) from t_flock_record_2019 where flock_id = #{flockId} and item_id =#{li.itemId} and
+            item_content_id = #{li.itemContentId} and type = #{li.type}
+            and FROM_UNIXTIME(create_time,'%Y%m%d') = FROM_UNIXTIME(v.create_time,'%Y%m%d')) as ${li.id}sums
+        </foreach>
+        SUM(num) as sum from t_flock_record_2019 v
+        where flock_id = #{flockId}
+        group by FROM_UNIXTIME(create_time,'%Y%m%d');
+    </select>
+
+    <select id="queryFlockItemUserCount" resultType="java.util.Map">
+        select f.name,FROM_UNIXTIME(f.create_time,'%Y%m%d') as time,u.nickname,
+        <foreach collection="list" item="li" separator="," close=",">
+            (SELECT SUM(total) as total FROM t_flock_item_user_count WHERE flock_id = #{flockId} AND uuid = ft.uuid AND
+            item_id =#{li.itemId} AND item_content_id = #{li.itemContentId} AND type =#{li.type}) as ${li.id}total
+        </foreach>
+        sum(ft.total) as sum from
+        t_flock_item_user_count ft
+        left join t_flock f
+        on ft.flock_id = f.id
+        left join t_user_account u
+        on ft.uuid = u.uuid
+        where flock_id = #{flockId}
+        group by ft.uuid
+    </select>
+
+    <select id="queryFlockItemToTal" resultType="java.util.Map">
+        SELECT
+        <foreach collection="list" item="li" separator="," close=",">
+            (SELECT total_done_num FROM t_flock_item WHERE flock_id = k.id AND item_id =#{li.itemId} AND item_content_id
+            = #{li.itemContentId} AND type =#{li.type}) as ${li.id}total
+        </foreach>
+        total_done_num as totalDoneNum FROM t_flock k WHERE id =#{flockId}
+    </select>
+    <select id="getFlockDedicationNum" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+    SELECT COUNT(*) as count,
+    (SELECT COUNT(*) FROM t_dedication_verses WHERE record_id = #{flockId} AND type = 0 AND distinction = 0) as flockCount
+      FROM t_dedication_verses
+      WHERE type =1 and uuid = #{uuid}
+      AND record_id in (SELECT parent_id FROM t_flock_record_view WHERE flock_id =#{flockId} AND uuid = #{uuid});
+    </select>
+
+    <sql id="base_sql">
+        <if test="type==1">
+            and item_id = #{itemId}
+        </if>
+        <if test="type!=1">
+            and item_id = #{itemId} and item_content_id = #{itemContentId}
+        </if>
+    </sql>
+
+</mapper>

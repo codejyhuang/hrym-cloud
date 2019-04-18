@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.lesson.mapper.TaskCommonMapper">
+    <insert id="insert">
+        insert into ${tableName}
+        <include refid="base_insert"/>
+    </insert>
+    <sql id="base_insert">
+        <if test="type==0">
+            (item_id,item_content_id,uuid,create_time,is_exit,today_commit_num)
+            values(#{task.itemId},#{task.itemContentId},#{task.uuid},#{task.createTime},1,0)
+        </if>
+        <if test="type==1">
+            (custom_id,uuid,create_time,is_exit,today_commit_num) values(#{task.itemId},#{task.uuid},#{task.createTime},1,0)
+        </if>
+        <if test="type==2">
+            (item_id,user_id,type_id,create_time,percent,is_exist,today_commit_num) values(#{task.itemId},#{task.uuid},10006,#{task.createTime},'0%',1,0)
+        </if>
+    </sql>
+
+
+    <update id="updateBookIsExist">
+        update ${tableName} set is_exist = 1
+        <include refid="base_update"/>
+    </update>
+    <update id="updateIsExist">
+        update ${tableName} set is_exit = 1
+        <include refid="base_update"/>
+    </update>
+    <update id="updateDoneNumByTaskId">
+        update ${tableName}
+        set done_num = done_num - #{num},
+        today_commit_num =
+        <if test="isRemove==1">
+            today_commit_num - #{num}
+        </if>
+        <if test="isRemove==0">
+            today_commit_num
+        </if>
+
+        where
+        <if test="type==2">
+            index_id = #{taskId}
+        </if>
+        <if test="type!=2">
+            task_id = #{taskId}
+        </if>
+    </update>
+    <update id="updateStateByPrimaryKey">
+        update ${tableName}
+        <if test="type==2">
+            set is_exist = #{state} where index_id = #{taskId}
+        </if>
+        <if test="type!=2">
+            set is_exit = #{state} where task_id = #{taskId}
+        </if>
+    </update>
+
+    <update id="updateBookcaseReport">
+        update t_bookcase
+        set done_num=done_num+#{num},
+        today_commit_num = today_commit_num + #{num},
+        percent=#{percent},
+        update_time=#{time}
+        where index_id=#{taskId}
+    </update>
+    <update id="updateCustomReport">
+        update t_task_plan_custom
+        set done_num = done_num+#{reportNum},
+        today_commit_num = today_commit_num+#{reportNum},
+        custom_done_num = custom_done_num+#{reportNum},
+        update_time = #{upTime}
+        where task_id = #{taskId}
+    </update>
+    <update id="updateLessonReport">
+        update t_task_plan_lesson
+        set done_num = done_num+#{reportNum},
+        today_commit_num = today_commit_num+#{reportNum},
+        custom_done_num = custom_done_num+#{reportNum},
+        update_time = #{upTime}
+        where task_id = #{taskId}
+    </update>
+    <update id="updateTaskOrder">
+        UPDATE ${tableName}
+        SET `order` = #{order}
+        WHERE
+        <if test="type!=2">
+            task_id = #{taskId}
+        </if>
+        <if test="type==2">
+            index_id = #{taskId}
+        </if>
+    </update>
+
+    <select id="queryTaskIdByItemIdAndItemContentIdAndTypeAndUuid" resultType="java.lang.Integer">
+        select task_id
+        from t_task_common_view
+        where uuid = #{uuid} and item_id = #{itemId} and item_content_id =  #{itemContentId} and `type` = #{type}
+    </select>
+
+    <sql id="base_update">
+        <where>
+            <if test="type==0">
+                and item_id = #{itemId} and item_content_id = #{itemContentId} and uuid = #{uuid}
+            </if>
+            <if test="type==1">
+                and custom_id = #{itemId} and uuid = #{uuid}
+            </if>
+            <if test="type==2">
+                and item_id = #{itemId} and user_id = #{uuid}
+            </if>
+        </where>
+    </sql>
+
+
+    <select id="queryCountByItemIdAndItemContentIdAndTableNameAndUuid" resultType="java.lang.Integer">
+        select count(*)
+        from ${tableName}
+        <include refid="base_sql"/>
+    </select>
+    <select id="queryTaskByUuidFromView" resultType="com.everg.hrym.api.lesson.entity.TaskCommon">
+        select task_id, tv.uuid ,tv.item_id,tv.item_content_id,done_num,today_commit_num,
+		lv.lesson_name,lv.type,tv.create_time,u.nickname createrNickName , u.avatar createrAvatar
+		from t_task_common_view tv
+		left join t_flock_lesson_view lv
+        on lv.item_id = tv.item_id and lv.item_content_id = tv.item_content_id
+        left join t_user_account u
+        on u.uuid = lv.user_id
+        where tv.is_exit = 1 and tv.uuid = #{userId} and lv.item_id is not null
+        <if test="taskId!=null"> and tv.task_id = #{taskId} </if>
+        order by `order` , tv.create_time desc
+    </select>
+    <select id="queryTaskFromTable" resultType="com.everg.hrym.api.lesson.entity.TaskCommon">
+        select create_time
+        <if test="type==1">
+            ,custom_id item_id
+        </if>
+        from ${tableName}
+        <where>
+            <if test="type==2">
+                and index_id = #{taskId}
+            </if>
+            <if test="type!=2">
+                and task_id = #{taskId}
+            </if>
+        </where>
+    </select>
+    <select id="totalUserBackup" resultType="com.everg.hrym.api.lesson.entity.TaskCommon">
+         SELECT t.nickname,t.created_time as create_time ,COUNT(*) as count,SUM(done_num) as done_num FROM t_task_common_view w
+        LEFT JOIN t_user_account t ON t.uuid = #{uuid} WHERE w.uuid =#{uuid} and is_exit = 1
+    </select>
+    <select id="queryItemListDeatil" resultType="com.everg.hrym.api.lesson.entity.TaskCommon">
+         select lesson_name,sum(done_num) AS done_num,tv.is_exit  from t_task_common_view tv
+          left join t_flock_lesson_view lv
+          on lv.item_id = tv.item_id and lv.item_content_id = tv.item_content_id and lv.type = tv.type
+          where tv.uuid = #{uuid}
+          group by tv.item_id,tv.item_content_id,tv.type
+          order by tv.is_exit
+    </select>
+
+    <select id="findBookTaskPlan" resultType="com.everg.hrym.api.lesson.entity.TaskCommon">
+        select index_id task_id,user_id uuid,item_id,done_num,create_time,update_time,is_exist is_exit
+        from t_bookcase
+        where item_id = #{itemId} and user_id = #{uuid}
+    </select>
+    <sql id="base_sql">
+        <where>
+            <if test="type==0">
+                and item_id = #{itemId} and item_content_id = #{itemContentId} and uuid = #{uuid}
+            </if>
+            <if test="type==1">
+                and custom_id = #{itemId} and uuid = #{uuid}
+            </if>
+            <if test="type==2">
+                and item_id = #{itemId} and user_id = #{uuid}
+            </if>
+            <if test="isExist!=null and type==2">
+                and is_exist = ${isExist} and user_id = #{uuid}
+            </if>
+            <if test="isExist!=null and type!=2">
+                and is_exit = ${isExist} and uuid = #{uuid}
+            </if>
+        </where>
+    </sql>
+
+    <!--合并账号-->
+    <update id="updateUuidOfTask">
+        update t_task_plan_custom set uuid = #{uuid} where uuid=#{oldUuid}
+    </update>
+
+
+</mapper>

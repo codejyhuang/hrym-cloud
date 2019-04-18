@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4b6ce12-ae89-4a78-8b38-1513b1908aa0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/hrym-api-lesson/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/hrym-api-flock/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/hrym-api-user/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/hrym-api-test/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/hrym-server-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/hrym-server-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/txlcn-tm/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/hrym-provider-user/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/hrym-provider-flock/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-common/hrym-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-common/hrym-common-redis/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-common/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-common/hrym-common-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-common/hrym-common-support/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-application/hrym-application-hgx/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-application/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/hrym-server-tm/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-api/hrym-api-pray/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-provider/hrym-provider-quatz/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-application/hyrm-application-app/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-application/hrym-application-zn/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/hrym-server/zipkin-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1674604055">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="12" />
+          <entry key="http" value="42" />
+          <entry key="java" value="6981" />
+          <entry key="properties" value="106" />
+          <entry key="txt" value="71" />
+          <entry key="xml" value="1612" />
+          <entry key="yml" value="627" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6981" />
+          <entry key="PLAIN_TEXT" value="83" />
+          <entry key="Properties" value="106" />
+          <entry key="Scratch" value="42" />
+          <entry key="XML" value="1612" />
+          <entry key="YAML" value="627" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="29" />
+          <entry key="html" value="1" />
+          <entry key="http" value="8" />
+          <entry key="java" value="691" />
+          <entry key="pom" value="8" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="296" />
+          <entry key="yml" value="129" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="29" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="691" />
+          <entry key="Properties" value="5" />
+          <entry key="Scratch" value="8" />
+          <entry key="XML" value="304" />
+          <entry key="YAML" value="129" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages">
+        <counts>
+          <entry key="DefaultRequestNavigator.fromCode" value="1" />
+          <entry key="RestClientRequestEditorNavigator.fromCode" value="9" />
+          <entry key="RestClientRequestRunnerNavigator.fromCode" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-598">
+              <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="119" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrym-server/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lesson</find>
+      <find>support</find>
+      <find>provider/searchHistory/</find>
+      <find>provider/task/</find>
+      <find>@RequestParam(&quot;itemContentId&quot;)</find>
+      <find>provider/back/</find>
+      <find>@RequestParam(&quot;flockId&quot;)</find>
+      <find>@RequestParam(&quot;pageSize&quot;)</find>
+      <find>api</find>
+      <find>@RequestParam(&quot;uuid&quot;)</find>
+      <find>@RequestParam(&quot;type&quot;)</find>
+      <find>@RequestParam(value = &quot;lat&quot;,required = false</find>
+      <find>report</find>
+      <find>provider/flockUser/</find>
+      <find>@RequestBody</find>
+      <find>@RequestParam(&quot;id&quot;)</find>
+      <find>@RequestParam(&quot;userId&quot;)</find>
+      <find>updateUuidOfTask</find>
+      <find>updateUuidOfCustomItem</find>
+      <find>updateUuidOfRecord</find>
+      <find>updateUuidOfFlockUser</find>
+      <find>updateUuidOfFlockItemCount</find>
+      <find>updateUuidOfFlockRecord</find>
+      <find>updateUuidOfFlock</find>
+      <find>http://admin:123456@localhost:8761/eureka/eureka</find>
+      <find>http://admin:123456@localhost:8671/eureka/eureka</find>
+      <find>zuul</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>back</replace>
+      <replace>api</replace>
+      <replace />
+      <replace>support</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-flock/src/main/resources/bootstrap-test.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/resources/bootstrap-test.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/resources/bootstrap-test.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/resources/bootstrap-prod.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-eureka/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-flock/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/src/main/java/com/everg/hrym/provider/pray/ProviderUserApplication.java" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/src/main/java/com/everg/hrym/provider/pray/ProviderPrayApplication.java" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hyrm-application-app/src/main/java/com/everg/hrym/application/app/AppApplication.java" />
+        <option value="$PROJECT_DIR$/hrym-application/hyrm-application-app/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-application/hyrm-application-app/src/main/java/com/everg/hrym/application/app/controller/UserLoginConsumerController.java" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/java/com/everg/hrym/server/eureka/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/java/com/everg/hrym/server/zipkin/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/hrym-server/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/zipkin-server/src/main/java/zipkin/server/ZipkinServer.java" />
+        <option value="$PROJECT_DIR$/hrym-common/hrym-common-support/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-common/hrym-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/java/com/everg/hrym/server/zipkin/ZipkinServerAppilcation.java" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/java/com/everg/hrym/application/hgx/controller/WxLoginController.java" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-pray/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-common/hrym-common-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-flock/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-lesson/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-quatz/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-flock/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-zuul/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/LessonService.java" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Library/repostory" />
+        <option name="mavenHome" value="$USER_HOME$/Library/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Library/apache-maven-3.5.3/conf/m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hrym-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrym-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="FlockSer&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java&#10;TaskCOnt&#9;PSI&#9;JAVA://com.everg.hrym.provider.lesson.controller.TaskController&#10;Wx&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-application/hrym-application-hgx/src/main/java/com/everg/hrym/application/hgx/controller/WxLoginController.java&#10;TaskCon&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/TaskController.java&#10;Lesso&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/LessonController.java&#10;FlockCon&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;LessonC&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/LessonController.java&#10;FlockItemFa&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-flock/src/main/java/com/everg/hrym/api/flock/facade/FlockItemFacade.java&#10;FlockItem&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-application/hrym-application-hgx/src/main/java/com/everg/hrym/application/hgx/controller/FlockItemConsumerController.java&#10;LessonFa&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-lesson/src/main/java/com/everg/hrym/api/lesson/facade/LessonFacade.java&#10;*Consumer&#9;PSI&#9;JAVA://com.everg.hrym.application.hgx.controller.FlockItemConsumerController&#10;Task&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/TaskController.java&#10;Flock&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;LessonCon&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/LessonController.java&#10;FLockMap&#9;PSI&#9;JAVA://com.everg.hrym.provider.flock.mapper.FlockMapper&#10;FLockCon&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;FlockCo&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;CustomM&#9;PSI&#9;JAVA://com.everg.hrym.provider.lesson.mapper.ItemCustomMapper&#10;LessonCo&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/LessonController.java&#10;LessonSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/LessonService.java&#10;TaskC&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/TaskController.java&#10;TaskSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/TaskService.java&#10;RecordSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/RecordService.java&#10;FlockContro&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;RecordCon&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/RecordController.java&#10;REcordSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/RecordService.java&#10;TaskFa&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-lesson/src/main/java/com/everg/hrym/api/lesson/facade/TaskFacade.java&#10;ItemUSerUni&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/resources/mybatis/ItemUserUnitMapper.xml&#10;FlockUser&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockUserController.java&#10;FLockItemFa&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-flock/src/main/java/com/everg/hrym/api/flock/facade/FlockItemFacade.java&#10;FlockI&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockItemController.java&#10;FlockCont&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;RecordC&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/RecordController.java&#10;RecorD&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/RecordService.java&#10;FLockItemCo&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockItemController.java&#10;FlockItemSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockItemService.java&#10;FlockC&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/controller/FlockController.java&#10;FLockUSer&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockUserService.java&#10;FlockSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java&#10;UserFa&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-user/src/main/java/com/everg/hrym/api/user/facade/UserFacade.java&#10;UserCon&#9;PSI&#9;JAVA://com.everg.hrym.provider.user.controller.UserController&#10;Loginc&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-application/hrym-application-hgx/src/main/java/com/everg/hrym/application/hgx/controller/WxLoginController.java&#10;LessonSer&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/LessonService.java&#10;TaskCo&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/TaskController.java&#10;FlockRepor&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockReportCountService.java&#10;FlockRecordSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockRecordService.java&#10;FLockSe&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java&#10;FLock&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java&#10;FlockFa&#9;PSI&#9;JAVA://com.everg.hrym.api.flock.facade.FlockFacade&#10;UserF&#9;FILE&#9;file:///Users/apple/Documents/code/hrym-cloud/hrym-api/hrym-api-user/src/main/java/com/everg/hrym/api/user/facade/UserFacade.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.everg.hrym.application.app" />
+      <recent name="com.everg.hrym.server.zipkin" />
+      <recent name="com.everg.hrym.provider.pray" />
+      <recent name="com.everg.hrym.server.eureka.config" />
+      <recent name="com.everg.hrym.application.hgx.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hrym-server" />
+      <recent name="$PROJECT_DIR$/hrym-provider" />
+      <recent name="$PROJECT_DIR$/hrym-provider/hrym-provider-pray/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8089/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="uuid" />
+                <option name="value" value="2199" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8089/provider/wxUser/getSessionkey" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="{uuid}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="uuid" />
+                <option name="value" value="107" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="uuid" />
+                <option name="value" value="2199" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="{uuid}" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8089/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid/2199" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8088/provider/user/queryByUuid" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="uuid" />
+                <option name="value" value="2199" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8088/hrym/wechat/test" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="RedisStorageTest.acquireLocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hrym-server-tm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingapi.txlcn.tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codingapi.txlcn.tm" />
+      <option name="MAIN_CLASS_NAME" value="com.codingapi.txlcn.tm.RedisStorageTest" />
+      <option name="METHOD_NAME" value="acquireLocks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hyrm-application-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.application.app.AppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-server-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.server.eureka.EurekaServerApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HgxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-application-hgx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.application.hgx.HgxApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderFlockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-provider-flock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.provider.flock.ProviderFlockApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderLessonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-provider-lesson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.provider.lesson.ProviderLessonApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderPrayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-provider-quatz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.provider.pray.ProviderPrayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.provider.user.ProviderUserApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hrym-server-tm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingapi.txlcn.tm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingapi.txlcn.tm.TMApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-server-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.server.zipkin.ZipkinServerAppilcation" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hrym-server-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.everg.hrym.server.zuul.ZuulServerApplication" />
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.ProviderUserApplication" />
+      <item itemvalue="Spring Boot.ProviderFlockApplication" />
+      <item itemvalue="Spring Boot.ProviderLessonApplication" />
+      <item itemvalue="Spring Boot.HgxApplication" />
+      <item itemvalue="Spring Boot.ProviderPrayApplication" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.TMApplication" />
+      <item itemvalue="JUnit.RedisStorageTest.acquireLocks" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TMApplication" />
+        <item itemvalue="JUnit.RedisStorageTest.acquireLocks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4b6ce12-ae89-4a78-8b38-1513b1908aa0" name="Default Changelist" comment="" />
+      <created>1555061404045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555061404045</updated>
+      <workItem from="1555061405217" duration="4959000" />
+      <workItem from="1555070900369" duration="2359000" />
+      <workItem from="1555154534052" duration="1801000" />
+      <workItem from="1555291360173" duration="497000" />
+      <workItem from="1555298742413" duration="5656000" />
+      <workItem from="1555310178097" duration="206000" />
+      <workItem from="1555319333668" duration="8120000" />
+      <workItem from="1555377399832" duration="11516000" />
+      <workItem from="1555398777481" duration="1049000" />
+      <workItem from="1555403514217" duration="2749000" />
+      <workItem from="1555406977318" duration="2230000" />
+      <workItem from="1555464048330" duration="151000" />
+      <workItem from="1555488646767" duration="584000" />
+      <workItem from="1555489249031" duration="5171000" />
+      <workItem from="1555495001021" duration="1986000" />
+      <workItem from="1555551225620" duration="1059000" />
+      <workItem from="1555553185559" duration="1289000" />
+      <workItem from="1555564965868" duration="1640000" />
+      <workItem from="1555566963183" duration="2833000" />
+      <workItem from="1555573536622" duration="8771000" />
+      <workItem from="1555587160478" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RedisStorageTest_acquireLocks - 2019.04.18 at 17h 46m 55s.xml">
+      <configuration name="RedisStorageTest.acquireLocks" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="64921000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30830282" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32967034" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32967034" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hrym-application/hrym-application-hgx/src/main/java/com/everg/hrym/application/hgx/controller/WxLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/java/com/everg/hrym/server/zipkin/ZipkinServerAppilcation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul/src/main/java/com/everg/hrym/server/zuul/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-common/hrym-common-support/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-user/src/main/java/com/everg/hrym/api/user/fallback/UserFacadeFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/mapper/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/java/com/everg/hrym/provider/user/mapper/UserAccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/java/com/everg/hrym/provider/user/mapper/WxUserAccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-lesson/src/main/java/com/everg/hrym/api/lesson/entity/RecordCommon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-flock/src/main/java/com/everg/hrym/api/flock/entity/FlockItemUserCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="45" selection-end-line="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-flock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-lesson/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-api/hrym-api-pray/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/repostory/org/springframework/boot/spring-boot-dependencies/2.0.5.RELEASE/spring-boot-dependencies-2.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1609" column="12" selection-start-line="1609" selection-start-column="12" selection-end-line="1609" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="15" selection-start-column="12" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-pray/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-quatz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zipkin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/resources/application-meetzy.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/test/java/com/codingapi/txlcn/tm/TxExceptionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/test/java/com/codingapi/txlcn/tm/TestFastStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/test/java/com/codingapi/txlcn/tm/RedisStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/java/com/codingapi/txlcn/tm/config/TxManagerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-user/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="53" selection-start-line="19" selection-start-column="2" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/java/com/codingapi/txlcn/tm/support/db/domain/TxException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-329">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-common/hrym-common-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/java/com/codingapi/txlcn/tm/support/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/java/com/codingapi/txlcn/tm/support/db/jpa/TxExceptionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/repostory/com/codingapi/txlcn/txlcn-logger/5.0.2.RELEASE/txlcn-logger-5.0.2.RELEASE.jar!/com/codingapi/txlcn/logger/TxLoggerConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/java/com/codingapi/txlcn/tm/support/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-tm/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/LessonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/java/com/everg/hrym/provider/lesson/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-flock/src/main/java/com/everg/hrym/provider/flock/service/FlockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-flock/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-provider/hrym-provider-flock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="119" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hrym-provider-pray</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: hrym-provider-lesson
+  autoconfigure:
+      exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+
+mybatis-plus:
+  mapper-locations: classpath*:mybatis/*.xml
+
+#配置超时时间，断点调试，上传大文件等容易超时
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+
+
+

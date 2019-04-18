@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.flock.mapper.ParseRecordMapper">
+
+    <resultMap id="resultMap" type="com.everg.hrym.api.flock.entity.ParseRecord">
+        <id column="id" property="id"/>
+        <result column="time" property="time"/>
+        <association property="fromUser" javaType="com.everg.hrym.api.user.entity.UserAccount" columnPrefix="u_">
+            <id property="uuid" column="uuid"/>
+            <result property="nickname" column="nickname"/>
+            <result property="avatar" column="avatar"/>
+        </association>
+    </resultMap>
+    <insert id="insert">
+        insert into t_parse_record(relation_id,`from`,`time`,record_type)
+        values(#{relationId},#{from},#{time},#{recordType})
+    </insert>
+    <delete id="cancelByRelationIdAndUuid">
+           delete from t_parse_record
+        where `from` = #{from} and relation_id = #{relationId} and record_type = #{recordType}
+    </delete>
+    <select id="queryByRelationIdAndRelationTypeAndFrom" resultType="com.everg.hrym.api.flock.entity.ParseRecord">
+        select id,relation_id,`from`,`time`
+        from t_parse_record
+        where `from` = #{from} and relation_id = #{relationId}
+    </select>
+    <select id="queryByRelationIdAndRecordTypeAndFrom" resultType="com.everg.hrym.api.flock.entity.ParseRecord">
+        select id,relation_id,`from`,`time`,record_type
+        from t_parse_record
+        where `from` = #{from} and relation_id = #{relationId} and record_type = #{recordType}
+    </select>
+    <select id="queryLikeMember" resultMap="resultMap">
+         select u.avatar u_avatar,u.nickname u_nickname,p.time,p.id
+        from t_parse_record p
+        left join t_user_account u
+		on p.`from` = u.uuid
+        where relation_id = #{relationId} and record_type = #{recordType}
+    </select>
+</mapper>

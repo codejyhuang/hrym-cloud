@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hrym-api-flock" />
+        <module name="hrym-api-lesson" />
+        <module name="hrym-api-pray" />
+        <module name="hrym-api-user" />
+        <module name="hrym-application-hgx" />
+        <module name="hrym-application-zn" />
+        <module name="hrym-common-core" />
+        <module name="hrym-common-mybatis" />
+        <module name="hrym-common-redis" />
+        <module name="hrym-common-support" />
+        <module name="hrym-provider-flock" />
+        <module name="hrym-provider-lesson" />
+        <module name="hrym-provider-pray" />
+        <module name="hrym-provider-quatz" />
+        <module name="hrym-provider-user" />
+        <module name="hrym-server-eureka" />
+        <module name="hrym-server-tm" />
+        <module name="hrym-server-zipkin" />
+        <module name="hrym-server-zuul" />
+        <module name="hyrm-application-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hrym-api-test" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hrym-api" options="-Xlint:all" />
+      <module name="hrym-api-flock" options="-Xlint:all" />
+      <module name="hrym-api-lesson" options="-Xlint:all" />
+      <module name="hrym-api-pray" options="-Xlint:all" />
+      <module name="hrym-api-test" options="-Xlint:all" />
+      <module name="hrym-api-user" options="-Xlint:all" />
+      <module name="hrym-application" options="-Xlint:all" />
+      <module name="hrym-application-hgx" options="-Xlint:all" />
+      <module name="hrym-application-zn" options="-Xlint:all" />
+      <module name="hrym-cloud" options="-Xlint:all" />
+      <module name="hrym-common" options="-Xlint:all" />
+      <module name="hrym-common-core" options="-Xlint:all" />
+      <module name="hrym-common-mybatis" options="-Xlint:all" />
+      <module name="hrym-common-redis" options="-Xlint:all" />
+      <module name="hrym-common-support" options="-Xlint:all" />
+      <module name="hrym-provider" options="-Xlint:all" />
+      <module name="hrym-provider-flock" options="-Xlint:all" />
+      <module name="hrym-provider-lesson" options="-Xlint:all" />
+      <module name="hrym-provider-pray" options="-Xlint:all" />
+      <module name="hrym-provider-quatz" options="-Xlint:all" />
+      <module name="hrym-provider-user" options="-Xlint:all" />
+      <module name="hrym-server" options="-Xlint:all" />
+      <module name="hrym-server-eureka" options="-Xlint:all" />
+      <module name="hrym-server-tm" options="-Xlint:all" />
+      <module name="hrym-server-zipkin" options="-Xlint:all" />
+      <module name="hrym-server-zuul" options="-Xlint:all" />
+      <module name="hyrm-application-app" options="-Xlint:all" />
+      <module name="zipkin-server" options="-Xlint:all" />
+    </option>
+  </component>
+</project>

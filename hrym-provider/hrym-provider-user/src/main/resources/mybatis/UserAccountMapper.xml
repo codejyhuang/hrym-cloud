@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.everg.hrym.provider.user.mapper.UserAccountMapper">
+    <resultMap id="BaseResultMap" type="com.everg.hrym.api.user.entity.UserAccount">
+        <id column="uuid" property="uuid"/>
+        <result column="social_uid" property="socialUid"/>
+        <result column="name" property="name"/>
+        <result column="nickname" property="nickname"/>
+        <result column="mobile" property="mobile"/>
+        <result column="email" property="email"/>
+        <result column="password" property="password"/>
+        <result column="sex" property="sex"/>
+        <result column="source" property="source"/>
+        <result column="avatar" property="avatar"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="updated_time" property="updatedTime"/>
+        <result column="status" property="status"/>
+        <result column="ymd" property="ymd"/>
+        <result column="device_id" property="deviceId"/>
+        <result column="identity_card_no" property="identityCardNo"/>
+        <result column="identity_card_url1" property="identityCardUrl1"/>
+        <result column="identity_card_url2" property="identityCardUrl2"/>
+        <result column="identity_card_url3" property="identityCardUrl3"/>
+        <result column="identity_auth_state" property="identityAuthState"/>
+        <result column="phone_auth_state" property="phoneAuthState"/>
+        <result column="profile" property="profile"/>
+        <result column="real_name" property="realName"/>
+        <result column="recent_time" property="recentTime"/>
+        <result column="address" property="address"/>
+        <result column="academic_system" property="academicSystem"/>
+        <result column="systematic_study_years" property="systematicStudyYears"/>
+        <result column="user_tatus" property="userTatus"/>
+        <result column="wx_uuid" property="wxUuid"/>
+        <result column="open_id" property="openId"/>
+        <result column="province" property="province"/>
+    </resultMap>
+    <insert id="insert" parameterType="com.everg.hrym.api.user.entity.UserAccount" useGeneratedKeys="true" keyProperty="uuid">
+    insert into `t_user_account` (uuid, social_uid, name,
+      nickname, mobile, email, 
+      password, sex, source, 
+      avatar, created_time, updated_time, 
+      status, ymd, device_id, 
+      identity_card_no, identity_card_url1, identity_card_url2, 
+      identity_card_url3, identity_auth_state, phone_auth_state, 
+      profile, real_name, recent_time, 
+      address, academic_system, systematic_study_years, 
+      user_tatus, wx_uuid, open_id, 
+      province)
+    values (#{uuid}, #{socialUid}, #{name}, 
+      #{nickname}, #{mobile}, #{email}, 
+      #{password}, #{sex}, #{source}, 
+      #{avatar}, #{createdTime}, #{updatedTime}, 
+      #{status}, #{ymd}, #{deviceId}, 
+      #{identityCardNo}, #{identityCardUrl1}, #{identityCardUrl2}, 
+      #{identityCardUrl3}, #{identityAuthState}, #{phoneAuthState}, 
+      #{profile}, #{realName}, #{recentTime}, 
+      #{address}, #{academicSystem}, #{systematicStudyYears}, 
+      #{userTatus}, #{wxUuid}, #{openId}, 
+      #{province})
+  </insert>
+    <insert id="insertUuidPhone">
+        insert into t_uuid_phone (uuid,phone,flag) values(#{uuid},#{phone},#{flag})
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.everg.hrym.api.user.entity.UserAccount">
+    update `t_user_account`
+    set social_uid = #{socialUid},
+      name = #{name},
+      nickname = #{nickname},
+      mobile = #{mobile},
+      email = #{email},
+      password = #{password},
+      sex = #{sex},
+      source = #{source},
+      avatar = #{avatar},
+      created_time = #{createdTime},
+      updated_time = #{updatedTime},
+      status = #{status},
+      ymd = #{ymd},
+      device_id = #{deviceId},
+      identity_card_no = #{identityCardNo},
+      identity_card_url1 = #{identityCardUrl1},
+      identity_card_url2 = #{identityCardUrl2},
+      identity_card_url3 = #{identityCardUrl3},
+      identity_auth_state = #{identityAuthState},
+      phone_auth_state = #{phoneAuthState},
+      profile = #{profile},
+      real_name = #{realName},
+      recent_time = #{recentTime},
+      address = #{address},
+      academic_system = #{academicSystem},
+      systematic_study_years = #{systematicStudyYears},
+      user_tatus = #{userTatus},
+      wx_uuid = #{wxUuid},
+      open_id = #{openId},
+      province = #{province}
+    where uuid = #{uuid}
+  </update>
+    <delete id="deleteUserByUuid">
+        delete from t_user_account where uuid=#{uuid}
+    </delete>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    select uuid, social_uid, name, nickname, mobile, email, password, sex, source, avatar, 
+    created_time, updated_time, status, ymd, device_id, identity_card_no, identity_card_url1, 
+    identity_card_url2, identity_card_url3, identity_auth_state, phone_auth_state, profile, 
+    real_name, recent_time, address, academic_system, systematic_study_years, user_tatus, 
+    wx_uuid, open_id, province
+    from `t_user_account`
+    where uuid = #{uuid}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select uuid, social_uid, name, nickname, mobile, email, password, sex, source, avatar, 
+    created_time, updated_time, status, ymd, device_id, identity_card_no, identity_card_url1, 
+    identity_card_url2, identity_card_url3, identity_auth_state, phone_auth_state, profile, 
+    real_name, recent_time, address, academic_system, systematic_study_years, user_tatus, 
+    wx_uuid, open_id, province
+    from `t_user_account`
+  </select>
+    <select id="findUserByUnionIdOpenId" resultType="com.everg.hrym.api.user.entity.UserAccount">
+    select uuid, social_uid, name, nickname, mobile, email, password, sex, source, avatar,
+    created_time, updated_time, status, ymd, device_id, identity_card_no, identity_card_url1,
+    identity_card_url2, identity_card_url3, identity_auth_state, phone_auth_state, profile,
+    real_name, recent_time, address, academic_system, systematic_study_years, user_tatus,
+    wx_uuid, open_id, province
+    from `t_user_account`
+    WHERE social_uid = #{unionId} or open_id=#{openId} order by uuid asc
+  </select>
+    <select id="findUuidPhoneByUuid" resultType="java.lang.Integer">
+        SELECT flag FROM t_uuid_phone WHERE uuid = #{uuid}
+    </select>
+
+    <update id="updateUserAccountNameByUuid">
+        update t_user_account
+        set
+        nickname=#{u.nickName},
+        province = #{u.province} ,
+        avatar = #{u.avatarUrl},
+        updated_time = #{updatedTime},
+        open_id = #{u.openid},
+        social_uid = #{u.unionId},
+        sex = #{u.sex}
+        where uuid = #{uuid}
+    </update>
+
+
+
+    <!--合并账号-->
+
+
+
+    <update id="updateUuidPhoneByUuid">
+        update t_uuid_phone set flag=1 , phone = #{phone} where uuid= #{uuid}
+    </update>
+
+</mapper>

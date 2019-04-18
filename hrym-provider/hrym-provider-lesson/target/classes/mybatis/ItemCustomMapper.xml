@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.lesson.mapper.ItemCustomMapper">
+    <resultMap id="baseResultMap" type="com.everg.hrym.api.lesson.entity.ItemCustom">
+        <id column="custom_id" property="itemId"/>
+        <result column="user_id" property="userId"/>
+        <result column="intro" property="intro"/>
+        <result column="custom_name" property="customName"/>
+        <result column="unit" property="unit"/>
+        <result column="privacy" property="privacy"/>
+    </resultMap>
+
+    <insert id="buildCustom" useGeneratedKeys="true" keyProperty="itemId" keyColumn="custom_id">
+        insert into t_resource_item_custom (custom_name, user_id, create_time,unit,intro,info,privacy)
+        values(#{customName},#{userId},#{createTime},#{unit},#{intro},#{info},#{privacy})
+    </insert>
+    <insert id="saveTaskRecord" keyProperty="recordId" useGeneratedKeys="true" keyColumn="record_id">
+        insert t_task_record_custom
+        (task_id,user_id,report_num,report_time,item_id,record_method,record_status,ymd,year,month)
+        values
+        (#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{recordMethod},#{recordStatus},from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+    </insert>
+    <update id="updateCustomPrivacy">
+        update t_resource_item_custom
+        set privacy = #{privacy}
+        where custom_id = #{itemId}
+    </update>
+    <update id="updateDoneNumByTaskId">
+        update t_task_plan_custom
+            set done_num = done_num+#{reportNum},
+            plan_target_value = plan_target_value+#{num},
+            today_commit_num = today_commit_num+#{reportNum},
+            custom_done_num = custom_done_num+#{reportNum},
+            counting_method = 0,
+            update_time = #{upTime}
+            where task_id = #{taskId}
+    </update>
+    <update id="updateTaskPlanCustom">
+        update t_task_plan_custom set " +
+        <if test="recentAdd !=null or recentAdd == 0 ">
+            recent_add = #{recentAdd},
+        </if>
+        <if test="isExit !=null or isExit == 0 ">
+            is_exit = #{isExit},
+        </if>
+        <if test="dayTarget !=null or dayTarget == 0 ">" +
+            day_target = #{dayTarget},
+        </if>
+        <if test="planTarget !=null or planTarget == 0 ">
+            plan_target = #{planTarget},
+        </if>
+        <if test="planTargetValue !=null or planTargetValue == 0 ">
+            plan_target_value = #{planTargetValue},
+        </if>
+        <if test="targetTime !=null or targetTime == 0 ">
+            target_time = #{targetTime},
+        </if>
+        <if test="competeTime !=null or competeTime == 0 ">
+            compete_time = #{competeTime},
+        </if>
+        update_time = #{updateTime}
+        where task_id = #{taskId}
+    </update>
+
+    <!--<select id="listAllByUuid" resultMap="baseResultMap">-->
+        <!--select custom_id,custom_name,user_id,unit,intro from t_resource_item_custom where user_id like #{uuid}-->
+    <!--</select>-->
+
+    <select id="findTaskPlanCustomById" resultType="com.everg.hrym.api.lesson.entity.ItemCustom">
+         select task_id,custom_id,uuid,plan_target_value,plan_target,done_num,today_commit_num,counting_method,
+          auto_done_num,custom_done_num,is_exit,create_time,update_time,day_target,target_time,compete_time from t_task_plan_custom where
+          uuid = #{uuid} and custom_id = #{itemId}
+    </select>
+
+    <select id="queryCountByCustomName" resultType="java.lang.Integer">
+        select count(custom_id) from t_resource_item_custom where custom_name = #{lessonName} and user_id = #{userId}
+    </select>
+
+    <select id="queryByCustomIdFromResourceCustom" resultType="java.lang.Integer">
+        select count(*)
+        from t_resource_item_custom
+        where custom_id = #{itemId} and user_id = #{userId}
+    </select>
+
+
+    <!--合并账号 更新数据-->
+    <update id="updateUuidOfCustomItem">
+        update t_resource_item_custom set user_id = #{uuid} where user_id=#{oldUuid}
+    </update>
+
+
+</mapper>

@@ -1,0 +1,72 @@
+spring:
+  application:
+    name: tx-manager
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    password: root@123456
+#    url: jdbc:mysql://192.168.1.210:3307/hrym-dev?characterEncoding=UTF-8
+  datasource:
+    dynamic: #设置默认的数据源或者数据源组,默认值即为master
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      druid: #以下是全局默认值，可以全局更改
+        filters: stat,wall,config
+        max-active: 100
+        initial-size: 1
+        max-wait: 60000
+        min-idle: 1
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        validation-query: select 'x'
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-open-prepared-statements: 50
+        max-pool-prepared-statement-per-connection-size: 20
+      datasource:
+        master:
+          username: root
+          password: root@123456
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://192.168.1.210:3307/hrym-dev?useUnicode=true&characterEncoding=utf8
+        slave_1:
+          username: root
+          password: root@123456
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://192.168.1.210:3307/hrym-dev?useUnicode=true&characterEncoding=utf8
+        slave_2:
+          username: root
+          password: root@123456
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://192.168.1.210:3307/hrym-dev?useUnicode=true&characterEncoding=utf8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  redis:
+    host: 192.168.1.210
+    port: 6379
+    password: 123456
+
+server:
+  port: 7970
+
+tx-lcn:
+  logger:
+    enabled: true
+    driver-class-name:  com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://192.168.1.210:3307/hrym-dev?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root@123456
+  manager:
+    host: 127.0.0.1
+    port: 8070
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}

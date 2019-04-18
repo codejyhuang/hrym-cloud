@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: hrym-server-eureka
+  security:
+    user:
+      name: admin-prod
+      password: Hrym201809
+
+server:
+  port: 8761
+  servlet:
+    contextPath: /eureka
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}:${server.port}/eureka
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  server:
+    enable-self-preservation: false
+
+logging:
+  config: classpath:logback.xml
+
+

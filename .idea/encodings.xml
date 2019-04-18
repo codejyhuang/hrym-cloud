@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-api/hrym-api-flock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-api/hrym-api-lesson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-api/hrym-api-pray" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-api/hrym-api-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-application/hrym-application-hgx" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-application/hrym-application-zn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-application/hyrm-application-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-common/hrym-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-common/hrym-common-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-common/hrym-common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-common/hrym-common-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider/hrym-provider-flock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider/hrym-provider-lesson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider/hrym-provider-pray" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider/hrym-provider-quatz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-provider/hrym-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-server/hrym-server-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-server/hrym-server-tm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-server/hrym-server-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrym-server/hrym-server-zuul" charset="UTF-8" />
+  </component>
+</project>

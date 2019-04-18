@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.flock.mapper.FlockRecordMapper">
+
+    <insert id="insertFlockRecord" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        INSERT INTO ${tableName}
+        (parent_id,create_time,uuid,num,ymd,`year`,`month`,lon,lat,item_id,item_content_id,flock_id,`type`)
+        VALUES
+        <foreach collection="list" item="li" separator="," close=";">
+            (#{li.parentId},#{li.createTime},#{li.uuid},#{li.num},from_unixtime(unix_timestamp(now()),
+            '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE),#{li.lon},#{li.lat},#{li.itemId},#{li.itemContentId},#{li.flockId},#{li.type})
+        </foreach>
+    </insert>
+
+    <insert id="insertFlockRecordByFlockId">
+        INSERT INTO ${tableName} (parent_id,create_time,uuid,num,ymd,`year`,`month`,lon,lat,item_id,item_content_id,flock_id,`type`)
+        VALUES(#{record.parentId},#{record.createTime},#{record.uuid},#{record.num},from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE),#{record.lon},#{record.lat},#{record.itemId},#{record.itemContentId},#{record.flockId},#{record.type})
+    </insert>
+    <!--<insert id="insertHistoryFlockRecord">-->
+        <!--INSERT INTO ${tableName} (parent_id,create_time,uuid,num,ymd,`year`,`month`,lon,lat,item_id,item_content_id,assist_pray_id,`type`,distinction)-->
+        <!--VALUES-->
+            <!--(#{li.parentId},#{li.createTime},#{li.uuid},#{li.num},from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE),#{li.lon},#{li.lat},#{li.itemId},#{li.itemContentId},#{li.assistPrayId},#{li.type},#{li.distinction})-->
+
+   <!--</insert>-->
+
+    <!--<insert id="insertAssistPrayRecord" useGeneratedKeys="true" keyColumn="id" keyProperty="id">-->
+    <!--INSERT INTO ${tableName}-->
+    <!--(parent_id,create_time,uuid,num,ymd,`year`,`month`,lon,lat,item_id,item_content_id,assist_pray_id,`type`,distinction)-->
+    <!--VALUES-->
+    <!--<foreach collection="list" item="li" separator="," close=";">-->
+    <!--(#{li.parentId},#{li.createTime},#{li.uuid},#{li.num},from_unixtime(unix_timestamp(now()),-->
+    <!--'%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE),#{li.lon},#{li.lat},#{li.itemId},#{li.itemContentId},#{li.assistPrayId},#{li.type},#{li.distinction})-->
+    <!--</foreach>-->
+    <!--</insert>-->
+
+    <update id="logicRemoveByPrimaryKey">
+        update  ${tableName}
+        set state = 0
+        where parent_id = #{recordId}
+    </update>
+    <update id="updateLikeNumByPrimaryKey">
+        update ${tableName}
+        set like_num = ifnull(like_num,0) + #{count}
+        where id = #{id}
+    </update>
+
+
+    <select id="queryByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select
+        r.id,parent_id,r.create_time,r.uuid,num,r.ymd,`year`,`month`,lon,lat,r.state,r.item_id,r.item_content_id,r.flock_id,r.type,n.unit
+        ,nickname,avatar,like_num,p.`from` has_like
+        from ${tableName1} r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        left join t_item_user_unit n
+        on r.item_id = n.item_id and r.item_content_id = n.item_content_id and r.type = n.type and n.uuid = #{uuid}
+        left join t_parse_record p
+        on r.id = p.relation_id and p.`from` = #{uuid}
+        where state = 1 and r.flock_id = #{id}
+        and
+        <foreach collection="list" item="flockItem" open="(" close=")" separator=" or">
+            (r.item_id = #{flockItem.itemId} and r.item_content_id = #{flockItem.itemContentId} and r.`type` =
+            #{flockItem.type})
+        </foreach>
+        union all
+        select
+        r.id,parent_id,r.create_time,r.uuid,num,r.ymd,`year`,`month`,lon,lat,r.state,r.item_id,r.item_content_id,r.flock_id,r.type,n.unit
+        ,nickname,avatar,like_num,p.`from` has_like
+        from ${tableName2} r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        left join t_item_user_unit n
+        on r.item_id = n.item_id and r.item_content_id = n.item_content_id and r.type = n.type and n.uuid = #{uuid}
+        left join t_parse_record p
+        on r.id = p.relation_id and p.`from` = #{uuid}
+        where state = 1 and r.flock_id = #{id}
+        and
+        <foreach collection="list" item="flockItem" open="(" close=")" separator=" or">
+            (r.item_id = #{flockItem.itemId} and r.item_content_id = #{flockItem.itemContentId} and r.`type` =
+            #{flockItem.type})
+        </foreach>
+        order by create_time desc
+    </select>
+
+    <!--<select id="queryByIds" resultType="com.everg.hrym.suppbacklock.entity.FlockRecordDO">-->
+    <!--SELECT id,flock_id,item_id,item_content_id,uuid,total FROM t_flock_item_user_count-->
+    <!--<where>-->
+    <!--uuid =1 AND flock_id =1 AND -->
+    <!--item_id  in-->
+    <!--<foreach item="item" collection="list" separator="," open="(" close=")" index="">-->
+    <!--#{item.id, jdbcType=NUMERIC}-->
+    <!--</foreach>-->
+    <!--and item_content_id in  <foreach item="item" collection="list" separator="," open="(" close=")" index="">-->
+    <!--#{item.id, jdbcType=NUMERIC}-->
+    <!--</foreach>-->
+    <!--GROUP BY flock_id ORDER BY total desc;-->
+
+    <!--</where>-->
+    <!--</select>-->
+    <select id="queryByFlockIdAndItemIdAndItemContentIdAndType"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select temp.id,`order`,create_time,uuid,num,nickname,avatar,like_num,temp.`year`,
+        c.`from` has_like
+        from (select @rownum:=@rownum+1 `order`,q.* from
+        (
+        select
+        r.id,parent_id,r.create_time,r.uuid,num,r.ymd,`year`,`month`,lon,lat,r.state,item_id,item_content_id,flock_id,r.type,r.like_num
+        ,nickname,avatar
+        from t_flock_record_view r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        where state = 1 and flock_id = #{flockId}
+        <include refid="base_where"/>
+        order by create_time desc
+        ) q ,(SELECT @rownum:=0) rown) temp
+        left join t_parse_record c
+        on temp.id = c.relation_id and c.from = #{userId}
+    </select>
+    <!--<select id="queryByFlockIdAndItemIdAndItemContentIdAndType"-->
+    <!--resultType="com.everg.hrym.suppbacklock.entity.FlockRecordDO">-->
+
+    <!--select 	id,`order`,uuid,num,nickname,avatar,-->
+    <!--(select count(id) from t_parse_record where relation_type = 0 and relation_id like temp.id and item_id = #{itemId} and content_id = #{itemContentId} and item_type = #{type}) likeNum,-->
+    <!--(select uuid from t_parse_record where relation_type = 0 and `from` = #{userId} and  relation_id like temp.id and item_id = #{itemId} and content_id = #{itemContentId} and item_type = #{type}) has_like-->
+    <!--from (select @rownum:=@rownum+1 	`order`,q.* from-->
+    <!--(-->
+    <!--select r.id,parent_id,r.create_time,r.uuid,num,r.ymd,`year`,`month`,lon,lat,r.state,item_id,item_content_id,flock_id,r.type-->
+    <!--,nickname,avatar-->
+    <!--from t_flock_record_view r-->
+    <!--left join t_user_account u-->
+    <!--on r.uuid = u.uuid-->
+    <!--where state = 1 and  flock_id = #{flockId}-->
+    <!--<include refid="base_where"/>-->
+    <!--order by create_time desc-->
+    <!--) q ,(SELECT @rownum:=0) rown) temp-->
+    <!--</select>-->
+    <select id="queryByFlockIdAndItemIdAndItemContentIdAndTypeGroupBy"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select r.uuid,sum(num) num,max(create_time) create_time
+        ,nickname,avatar
+        from t_flock_record_view r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        where state = 1 and flock_id = #{flockId}
+        <include refid="base_sql"/>
+        group by r.uuid
+        order by num desc
+    </select>
+    <select id="queryByFlockIdAndItemIdAndItemContentIdAndTypeAndToday"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select r.uuid,sum(num) num,max(r.create_time) create_time
+        ,nickname,avatar
+        from ${tableName} r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        where state = 1 and flock_id = #{flockId} and `ymd` = #{ymd}
+        <include refid="base_where"/>
+        group by r.uuid
+        order by num desc
+    </select>
+    <select id="queryByFlockIdAndItemIdAndItemContentIdAndTypeAndMonthOrYear"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select r.uuid,sum(num) num,max(r.create_time) create_time
+        ,nickname,avatar
+        from ${tableName} r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        where state = 1 and flock_id = #{flockId} and `year` = #{year}
+        <if test="month!=null">and `month` = #{month}</if>
+        <include refid="base_where"/>
+        group by r.uuid
+        order by num desc
+    </select>
+    <select id="queryByIds" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT y.item_id,y.item_content_id,y.flock_id,y.state,y.type,y.uuid,SUM(y.num) as
+        num,y.create_time,t.nickname,t.avatar FROM ${tableName} y
+        LEFT JOIN t_user_account t ON t.uuid = y.uuid
+        WHERE
+        y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+        and y.item_id = #{vo.itemId} and y.item_content_id =#{vo.itemContentId} and y.type = #{vo.type} and y.state = 1
+        GROUP BY y.uuid
+        <include refid="years"/>
+    </select>
+
+    <select id="queryByCUstomIds" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT y.item_id,y.item_content_id,y.flock_id,y.state,y.type,y.uuid,SUM(y.num) as
+        num,y.create_time,t.nickname,t.avatar FROM ${tableName} y
+        LEFT JOIN t_user_account t ON t.uuid = y.uuid
+        WHERE
+        y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+        and y.item_id = #{vo.itemId} and y.type = #{vo.type} and y.state = 1
+        GROUP BY y.uuid
+        <include refid="years"/>
+    </select>
+    <select id="findCustomSum" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT SUM(y.num) as num FROM ${tableName} y
+        WHERE
+        y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+        and y.item_id = #{vo.itemId} and y.type = #{vo.type} and y.state = 1
+        <include refid="year"/>
+    </select>
+    <select id="queryByUuid" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select `order`,uuid,num,avatar,nickname from (select @rownum:=@rownum+1 `order`,q.* from
+        (
+        select r.uuid,sum(r.num) num,avatar,nickname
+        FROM ${tableName} r
+        left join t_user_account u
+        on u.uuid = r.uuid
+        where r.flock_id = #{flockId} and r.state = 1
+        and r.type = #{type} and item_id = #{itemId} and item_content_id = #{itemContentId}
+        <include refid="base_term"/>
+        group by r.uuid
+        order by num desc
+        ) q ,(select @rownum:=0) rown) temp where temp.uuid = #{uuid}
+    </select>
+    <select id="queryByFlockIdAndItemIdAndItemContentIdAndTimeType"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select `order`,uuid,num,avatar,nickname from (select @rownum:=@rownum+1 `order`,q.* from
+        (
+        select r.uuid,sum(r.num) num,avatar,nickname
+        FROM ${tableName} r
+        left join t_user_account u
+        on u.uuid = r.uuid
+        where r.flock_id = #{flockId} and r.state = 1
+        and r.type = #{type} and item_id = #{itemId} and item_content_id = #{itemContentId}
+        <include refid="base_term"/>
+        group by r.uuid
+        order by num desc
+        ) q ,(select @rownum:=0) rown) temp
+    </select>
+    <select id="findLessonSum" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT SUM(y.num) as num FROM ${tableName} y
+        WHERE
+        y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+        and y.item_id = #{vo.itemId} and y.item_content_id =#{vo.itemContentId} and y.type = #{vo.type} and y.state = 1
+        <include refid="year"/>
+    </select>
+    <select id="queryItemNum" resultType="java.lang.Double">
+        select sum(num)
+        from ${tableName}
+        where uuid = #{userId}
+        and item_id = #{itemId} and item_content_id = #{itemContentId} and type = #{type}
+        and state = #{state}
+        <include refid="base_selfCard"/>
+    </select>
+    <select id="queryRecordByItemIdAndItemContentIdAndTypeAndUuid"
+            resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select id,parent_id,num,create_time,is_import,`year`,`type`
+        from t_flock_record_view
+        where item_id = #{itemId} and item_content_id = #{itemContentId} and type = #{type} and state = #{state}
+        and uuid = #{userId}
+    </select>
+    <select id="flockWeekNumDetailByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockObjectDO">
+        SELECT SUM(num)as flockThisTotal,
+        (SELECT SUM(num) FROM ${tableName} WHERE create_time>=#{lastWeek} AND create_time &lt; #{thisWeek} AND flock_id =#{id} )as flockLastTotal,
+        (SELECT SUM(num) FROM ${tableName} WHERE create_time>=#{lastWeek} AND create_time &lt; #{thisWeek} AND flock_id =#{id} AND uuid =#{uuid})as myLastTotal,
+        (SELECT SUM(num) FROM t_flock_record_view WHERE create_time>=#{thisWeek} AND flock_id =#{id} AND uuid =#{uuid})as myThisTotal
+        FROM t_flock_record_view WHERE create_time>=#{thisWeek} AND flock_id =#{id}
+    </select>
+    <select id="queryDayNumByFlockId" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        select
+        <if test="type==0">
+            FROM_UNIXTIME(create_time,'%m.%d')as createTimes,
+        </if>
+        <if test="type==2">
+            FROM_UNIXTIME(create_time,'%m')as createTimes,
+        </if>
+        <if test="type==3">
+            FROM_UNIXTIME(create_time,'%Y')as createTimes,
+        </if>
+        <if test="type==1">
+            FROM_UNIXTIME(create_time,'%Y%u')as createTimes,
+        </if>
+        sum(num) as num ,create_time from ${tableName}
+        where flock_id = #{id} and state = 1
+        <if test="type==0">
+            group by FROM_UNIXTIME(create_time,'%Y%m%d')
+
+        </if>
+        <if test="type==1">
+            group by FROM_UNIXTIME(create_time,'%Y%u')
+
+        </if>
+        <if test="type==2">
+            group by FROM_UNIXTIME(create_time,'%Y%m')
+
+        </if>
+        <if test="type==3">
+            group by FROM_UNIXTIME(create_time,'%Y')
+
+        </if>
+        union all
+        select
+        <if test="type==0">
+            FROM_UNIXTIME(create_time,'%m.%d')as createTimes,
+        </if>
+        <if test="type==2">
+            FROM_UNIXTIME(create_time,'%m')as createTimes,
+        </if>
+        <if test="type==3">
+            FROM_UNIXTIME(create_time,'%Y')as createTimes,
+        </if>
+        <if test="type==1">
+            FROM_UNIXTIME(create_time,'%Y%u')as createTimes,
+        </if>
+        sum(num) as num ,create_time from ${tableName1}
+        where flock_id = #{id} and state = 1
+        <if test="type==0">
+            group by FROM_UNIXTIME(create_time,'%Y%m%d')
+
+        </if>
+        <if test="type==1">
+            group by FROM_UNIXTIME(create_time,'%Y%u')
+
+        </if>
+        <if test="type==2">
+            group by FROM_UNIXTIME(create_time,'%Y%m')
+
+        </if>
+        <if test="type==3">
+            group by FROM_UNIXTIME(create_time,'%Y')
+
+        </if>
+        order by create_time desc
+        <if test="type==0">
+            limit 10
+        </if>
+        <if test="type==1">
+            limit 4
+        </if>
+        <if test="type==2">
+            limit 5
+        </if>
+        <if test="type==3">
+            limit 3
+        </if>
+
+    </select>
+
+    <select id="queryMydayNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+          SELECT SUM(w.num) as num,t.avatar  FROM t_flock_record_view w
+           LEFT JOIN t_user_account t ON t.uuid = w.uuid
+           WHERE w.uuid =#{uuid} AND FROM_UNIXTIME(w.create_time,'%Y%m%d') =current_date AND w.flock_id =#{id}
+    </select>
+
+    <select id="queryMaxdayNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        SELECT SUM(w.num) as num,t.avatar  FROM t_flock_record_view w
+        LEFT JOIN t_user_account t ON w.uuid = t.uuid
+        WHERE  FROM_UNIXTIME(w.create_time,'%Y%m%d') =current_date AND w.flock_id =#{id} GROUP BY w.uuid ORDER BY num DESC LIMIT 1 ;
+    </select>
+
+    <select id="queryWeekNumByFlockId" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        select FROM_UNIXTIME(create_time,'%Y-%m-%d') createTimes,FROM_UNIXTIME(create_time,'%Y%u') weeks,SUM(num) num
+        from t_flock_record_view
+        WHERE flock_id =#{id} group by weeks ORDER BY weeks DESC LIMIT 4
+    </select>
+    <select id="queryMyWeekNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        SELECT SUM(w.num)as num,t.avatar,t.nickname FROM  t_flock_record_view w
+        LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE w.uuid =#{uuid} and w.flock_id =#{id} and YEARWEEK( FROM_UNIXTIME(  w.create_time,'%Y-%m-%d' ) ) = YEARWEEK( now() );
+
+    </select>
+    <select id="queryMaxWeekNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+         SELECT t.uuid,SUM(w.num)as num,t.avatar,t.nickname FROM  t_flock_record_view w
+        LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE  w.flock_id =#{id} and YEARWEEK( FROM_UNIXTIME(  w.create_time,'%Y-%m-%d' ) ) = YEARWEEK( now() )
+        GROUP BY w.uuid ORDER BY num DESC LIMIT 1;
+
+    </select>
+    <select id="queryMonthNumByFlockId" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        select FROM_UNIXTIME(create_time,'%Y-%m') createTimes,FROM_UNIXTIME(create_time,'%Y%m') months,SUM(num) num
+        from t_flock_record_view
+        WHERE flock_id =#{id} group by months ORDER BY months DESC LIMIT 5
+    </select>
+    <select id="queryMyMonthNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select SUM(w.num) num,t.nickname,w.flock_id,t.avatar
+        from t_flock_record_view w LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE   w.uuid = #{uuid} AND flock_id =#{id}  AND FROM_UNIXTIME( create_time, '%Y%m' ) = DATE_FORMAT( CURDATE( ) ,'%Y%m' )
+    </select>
+    <select id="queryMaxMonthNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select SUM(w.num) num,t.nickname,w.flock_id,t.avatar
+        from t_flock_record_view w LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE  flock_id =#{id}  AND FROM_UNIXTIME( create_time, '%Y%m' ) = DATE_FORMAT( CURDATE( ) ,'%Y%m' ) GROUP BY w.uuid ORDER BY num DESC LIMIT 1
+    </select>
+    <select id="queryYearNumByFlockId" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+         select FROM_UNIXTIME(create_time,'%Y') createTimes,FROM_UNIXTIME(create_time,'%Y') years,SUM(num) num
+        from t_flock_record_view
+        WHERE flock_id =#{id} group by years ORDER BY years DESC LIMIT 3 ;
+    </select>
+    <select id="queryMyYearNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select SUM(w.num) num,t.nickname,w.flock_id,t.avatar
+        from t_flock_record_view w LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE  w.uuid = #{uuid} and flock_id =#{id}  AND  FROM_UNIXTIME( w.create_time,'%Y') = YEAR( NOW( ) )
+    </select>
+    <select id="queryMaxYearNumByFlockId" resultType="com.everg.hrym.api.flock.entity.FlockRecordDO">
+        select FROM_UNIXTIME(create_time,'%Y') createTimes,SUM(w.num) num,t.nickname,w.flock_id,t.avatar
+        from t_flock_record_view w LEFT JOIN t_user_account t ON t.uuid = w.uuid
+        WHERE  flock_id =#{id}  AND FROM_UNIXTIME( w.create_time,'%Y') = YEAR( NOW( )) GROUP BY w.uuid ORDER BY num DESC LIMIT 1
+    </select>
+    <select id="queryRecordListByTime" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        select `order`,temp.num,nickname,avatar,uuid
+        from (select @rownum:=@rownum+1 `order`,q.* from
+        (
+        select sum(r.num) num
+        ,nickname,avatar,u.uuid
+        from ${tableName} r
+        left join t_user_account u
+        on r.uuid = u.uuid
+        where state = 1 and flock_id = #{id}
+        <if test="type==0">
+            and FROM_UNIXTIME(r.create_time,'%Y%m%d') = FROM_UNIXTIME(#{time},'%Y%m%d')
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(r.create_time,'%Y%m') = FROM_UNIXTIME(#{time},'%Y%m')
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(r.create_time,'%Y') = FROM_UNIXTIME(#{time},'%Y')
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(r.create_time,'%Y%u') = FROM_UNIXTIME(#{time},'%Y%u')
+        </if>
+        group by r.uuid
+        order by num desc
+        ) q ,(SELECT @rownum:=0) rown) temp
+    </select>
+    <select id="queryFlockItemNum" resultType="java.lang.Integer">
+        SELECT COUNT(DISTINCT item_id,item_content_id,type) as count
+        FROM ${tableName}
+        WHERE flock_id=#{id}
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(#{createTime},'%Y%m%d')
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(#{createTime},'%Y%m')
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(#{createTime},'%Y')
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u')=FROM_UNIXTIME(#{createTime},'%Y%u')
+        </if>
+    </select>
+    <select id="queryLastFlockNum" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT SUM(num)as num
+        FROM ${tableName} WHERE flock_id=#{id}
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(#{createTime},'%Y%m%d')-1;
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(#{createTime},'%Y%m')-1;
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(#{createTime},'%Y')-1;
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u')=FROM_UNIXTIME(#{createTime},'%Y%u')-1;
+        </if>
+
+    </select>
+    <select id="queryLastMyNum" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT SUM(num)as num
+        FROM ${tableName} WHERE flock_id=#{id} and uuid= #{uuid}
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d')=FROM_UNIXTIME(#{createTime},'%Y%m%d')-1;
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m')=FROM_UNIXTIME(#{createTime},'%Y%m')-1;
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y')=FROM_UNIXTIME(#{createTime},'%Y')-1;
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u')=FROM_UNIXTIME(#{createTime},'%Y%u')-1;
+        </if>
+
+    </select>
+    <select id="queryflockTotalNum" resultType="java.lang.Integer">
+
+        SELECT sum(num) as num from t_flock_record_view
+        where flock_id = #{id} and state = 1
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d')&lt;= FROM_UNIXTIME(#{createTime},'%Y%m%d')
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m')&lt;=FROM_UNIXTIME(#{createTime},'%Y%m')
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y')&lt;=FROM_UNIXTIME(#{createTime},'%Y')
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u')&lt;=FROM_UNIXTIME(#{createTime},'%Y%u')
+        </if>
+    </select>
+    <select id="queryMyTotalNum" resultType="java.lang.Integer">
+        SELECT SUM(total) as sum FROM t_flock_item_user_count WHERE flock_id =#{id} AND uuid =#{uuid}
+    </select>
+    <select id="queryYearNumByFlockIdAndTableName" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        select FROM_UNIXTIME(create_time,'%Y')as createTimes,
+        sum(num) as num ,create_time from ${tableName}
+        where flock_id = #{flockId} and state = 1
+    </select>
+    <select id="queryIsNotMyNum" resultType="com.everg.hrym.common.support.vo.FlockRecordVo">
+        SELECT IFNULL(SUM(num),0) as num from ${tableName}
+        where flock_id = #{flockId} and state = 1 and uuid = #{uuid}
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d') > FROM_UNIXTIME(#{createTime},'%Y%m%d')
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m') >FROM_UNIXTIME(#{createTime},'%Y%m')
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y') >FROM_UNIXTIME(#{createTime},'%Y')
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u') >FROM_UNIXTIME(#{createTime},'%Y%u')
+        </if>
+        union all
+        SELECT IFNULL(SUM(num),0) as num from ${tableName1}
+        where flock_id = #{flockId} and state = 1 and uuid = #{uuid}
+        <if test="type==0">
+            and FROM_UNIXTIME(create_time,'%Y%m%d') > FROM_UNIXTIME(#{createTime},'%Y%m%d')
+        </if>
+        <if test="type==2">
+            and FROM_UNIXTIME(create_time,'%Y%m') > FROM_UNIXTIME(#{createTime},'%Y%m')
+        </if>
+        <if test="type==3">
+            and FROM_UNIXTIME(create_time,'%Y') > FROM_UNIXTIME(#{createTime},'%Y')
+        </if>
+        <if test="type==1">
+            and FROM_UNIXTIME(create_time,'%Y%u') > FROM_UNIXTIME(#{createTime},'%Y%u')
+        </if>
+    </select>
+
+    <sql id="base_selfCard">
+        <if test="timeType==0">
+            and `ymd` = #{format}
+        </if>
+        <if test="timeType==1">
+            and `month` = #{format}
+        </if>
+    </sql>
+
+    <sql id="base_term">
+        <if test="timeType==1">
+            and r.ymd = #{ymd}
+        </if>
+        <if test="timeType==2">
+            and r.month = #{month}
+        </if>
+        <if test="timeType==3">
+            and r.year = #{year}
+        </if>
+        <if test="timeType==5">
+            and r.create_time > #{weekMorning}
+        </if>
+    </sql>
+
+    <sql id="base_sql">
+        <if test="type==1 and timeType==1">
+            and item_id = #{itemId} and r.type = #{type} and `month` = (select max(`month`) from t_flock_record_view
+            where item_id = #{itemId})
+        </if>
+        <if test="type==1 and timeType==2">
+            and item_id = #{itemId} and r.type = #{type} and `year` = (select max(`year`) from t_flock_record_view where
+            item_id = #{itemId})
+        </if>
+        <if test="type==1 and timeType==3">
+            and item_id = #{itemId} and r.type = #{type}
+        </if>
+        <if test="type!=1 and timeType==1">
+            and item_id = #{itemId} and item_content_id = #{itemContentId} and r.type = #{type} and `month` = (select
+            max(`month`) from t_flock_record_view where item_id = #{itemId} and item_content_id = #{itemContentId} and
+            r.type = #{type})
+        </if>
+        <if test="type!=1 and timeType==2">
+            and item_id = #{itemId} and item_content_id = #{itemContentId} and r.type = #{type} and `year` = (select
+            max(`year`) from t_flock_record_view where item_id = #{itemId} and item_content_id = #{itemContentId} and
+            r.type = #{type})
+        </if>
+        <if test="type!=1 and timeType==3">
+            and item_id = #{itemId} and item_content_id = #{itemContentId} and r.type = #{type}
+        </if>
+    </sql>
+
+    <sql id="base_where">
+        <if test="type==1">
+            and item_id = #{itemId} and r.type = #{type}
+        </if>
+        <if test="type!=1">
+            and item_id = #{itemId} and item_content_id = #{itemContentId} and r.type = #{type}
+        </if>
+    </sql>
+
+    <sql id="year">
+        <if test="year==1">
+            union all
+            SELECT SUM(y.num) as num FROM ${tableName1} y
+            WHERE
+            y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+            and y.item_id = #{vo.itemId} and y.item_content_id =#{vo.itemContentId} and y.type = #{vo.type} and y.state
+            = 1
+        </if>
+        <if test="year !=1">
+            ORDER BY num desc
+        </if>
+
+    </sql>
+    <sql id="years">
+        <if test="years==1">
+            union all
+            SELECT y.item_id,y.item_content_id,y.flock_id,y.state,y.type,y.uuid,SUM(y.num) as
+            num,y.create_time,t.nickname,t.avatar FROM ${tableName1} y
+            LEFT JOIN t_user_account t ON t.uuid = y.uuid
+            WHERE
+            y.flock_id = #{vo.flockId} and y.create_time BETWEEN #{vo.startTime} and #{vo.endTime}
+            and y.item_id = #{vo.itemId} and y.type = #{vo.type} and y.state = 1
+            GROUP BY y.uuid
+        </if>
+        <if test="years !=1">
+            ORDER BY num desc
+        </if>
+
+    </sql>
+
+    <!--合并账号-->
+    <update id="updateUuidOfFlockRecord">
+        update t_flock_record_2018 set uuid = #{uuid} where uuid=#{oldUuid}
+    </update>
+
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/txlcn-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-common/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-application/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-server/hrym-server-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-pray/pom.xml" />
+        <option value="$PROJECT_DIR$/hrym-provider/hrym-provider-quatz/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hrym-api/hrym-api-test/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

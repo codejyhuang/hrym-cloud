@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.lesson.mapper.ItemLessonMapper">
+
+    <resultMap id="baseResultMap" type="com.everg.hrym.api.lesson.entity.LessonCommon">
+        <result property="itemId" column="item_id"/>
+        <result property="info" column="info"/>
+        <result property="itemContentId" column="item_content_id"/>
+        <result property="lessonName" column="lesson_name"/>
+        <result property="type" column="type"/>
+        <result property="userId" column="user_id"/>
+        <result property="onlineNum" column="online_num"/>
+        <result property="privacy" column="privacy"/>
+        <association property="createUser" javaType="com.everg.hrym.api.user.entity.UserAccount"  columnPrefix="u_">
+        <id property="uuid" column="uuid"/>
+        <result property="nickname" column="nickname"/>
+        <result property="avatar" column="avatar"/>
+        </association>
+    </resultMap>
+    <insert id="saveTaskRecord" useGeneratedKeys="true" keyProperty="recordId" keyColumn="record_id">
+        insert t_task_record_lesson(task_id,user_id,report_num,report_time,item_id,record_method,item_content_id,record_status,ymd,year,month)
+        values
+        (#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{recordMethod},#{itemContentId},#{recordStatus},from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+    </insert>
+
+    <update id="updateOnlineNum">
+        update
+        <include refid="base_update"/>
+    </update>
+    <update id="updateDoneNumByTaskId">
+        update t_task_plan_lesson
+        set done_num = done_num+#{reportNum},
+        plan_target_value = plan_target_value+#{num},
+        today_commit_num = today_commit_num+#{reportNum},
+        <if test="countMethod == 0 ">
+            custom_done_num = custom_done_num+#{reportNum},
+        </if>
+        <if test="countMethod != 0 ">
+            auto_done_num = auto_done_num+#{reportNum},
+        </if>
+        counting_method = #{countMethod},
+        update_time = #{upTime}
+        where task_id = #{taskId}
+    </update>
+    <update id="updateTaskPlanLesson">
+        update t_task_plan_lesson set " +
+        <if test="recentAdd != null or recentAdd == 0">
+            recent_add = #{recentAdd},
+        </if>
+        <if test="isExit != null or isExit == 0">
+            is_exit = #{isExit},
+        </if>
+        <if test="dayTarget != null or dayTarget == 0">
+            day_target = #{dayTarget},
+        </if>
+        <if test="planTarget != null or planTarget == 0">
+            plan_target = #{planTarget},
+        </if>
+        <if test="planTargetValue !=null or planTargetValue == 0 ">
+            plan_target_value = #{planTargetValue},
+        </if>
+        <if test="targetTime !=null or targetTime == 0 ">
+            target_time = #{targetTime},
+        </if>
+        update_time = #{updateTime}
+        where task_id = #{taskId}
+    </update>
+
+
+
+
+
+    <select id="queryItemRecordList" resultType="com.everg.hrym.api.lesson.entity.RecordCommon">
+        select fv.lesson_name,report_num,report_time from
+    t_record_common_view cv
+    left join t_flock_lesson_view fv
+    on cv.item_id = fv.item_id and cv.item_content_id = fv.item_content_id and cv.type = fv.type
+    where cv.user_id = #{uuid} and cv.task_id is NOT null
+    order by fv.lesson_name , cv.report_time
+    </select>
+
+    <select id="queryLessonFromView" resultMap="baseResultMap">
+        select item_id,item_content_id,lesson_name,type,user_id,info,create_time,privacy,
+        u.avatar u_avatar ,u.nickname u_nickname
+        from t_flock_lesson_view
+        left join t_user_account u
+        on u.uuid = t_flock_lesson_view.user_id
+        where item_id = #{itemId} and item_content_id = #{itemContentId} and `type` = #{type}
+    </select>
+    <select id="queryLessonListFromView" resultMap="baseResultMap">
+        select v.item_id,v.item_content_id,v.lesson_name,v.type,v.online_num,v.user_id,u.avatar u_avatar,u.nickname
+        u_nickname,v.create_time
+        from t_flock_lesson_view v
+        left join t_user_account u
+        on u.uuid = v.user_id
+        <include refid="base_where"/>
+    </select>
+    <select id="findTaskPlanLessonByTaskId"
+            resultType="com.everg.hrym.api.lesson.entity.ItemLessonTaskPlan">
+        select a.task_id,a.item_id,a.item_content_id,a.start_time,a.plan_target,a.done_num,a.day_target,a.today_commit_num,a.create_time,a.update_time,b.bg_banner_pic as bgPic,a.plan_target_value,a.target_time
+            from t_task_plan_lesson a
+            left join t_resource_item_lesson b
+            on a.item_id=b.item_id
+            where a.uuid = #{uuid} and a.item_content_id = #{itemContentId} and a.item_id = #{itemId}
+    </select>
+
+
+    <sql id="base_where">
+        <where>
+            <if test="keywords!=null">
+                and lesson_name like CONCAT('%',#{keywords},'%')
+            </if>
+            <if test="type==2">
+                and ((v.type = 1 and v.user_id = #{uuid}) or (v.privacy != 2 and v.type = 1 and v.user_id != #{uuid}))
+                order by v.create_time desc
+            </if>
+            <if test="type==0">
+                and v.type != 1 order by v.online_num desc
+            </if>
+            <if test="type==1">
+                and v.privacy != 2 or (v.privacy = 2 and v.user_id = #{uuid}) order by convert(v.lesson_name using gbk)
+            </if>
+        </where>
+    </sql>
+
+
+    <sql id="base_delete">
+        <if test="type==1">
+            and item_id = #{itemId}
+        </if>
+        <if test="type!=1">
+            and item_id =#{itemId} and item_content_id = #{itemContentId}
+        </if>
+    </sql>
+
+    <sql id="base_updateOrder">
+        <if test="type==1">
+            custom_id = #{itemId} and uuid = #{uuid}
+        </if>
+        <if test="type==0">
+            item_id =#{itemId} AND uuid =#{uuid} and item_content_id = #{itemContentId}
+        </if>
+        <if test="type==2">
+            item_id =#{itemId} AND user_id =#{uuid}
+        </if>
+    </sql>
+
+    <sql id="base_update">
+        <if test="type==0">
+            t_resource_content_lesson set online_num = case when 0 > online_num + #{num} then 0 else online_num + #{num}
+            end
+            where item_id = #{itemId} and item_content_id = #{itemContentId}
+        </if>
+        <if test="type==1">
+            t_resource_item_custom set online_num = case when 0 > online_num + #{num} then 0 else online_num + #{num}
+            end
+            where custom_id = #{itemId}
+        </if>
+        <if test="type==2">
+            t_resource_content_book set online_num = case when 0 > online_num + #{num} then 0 else online_num + #{num}
+            end
+            where item_id = #{itemId} and item_content_id = #{itemContentId}
+        </if>
+    </sql>
+</mapper>

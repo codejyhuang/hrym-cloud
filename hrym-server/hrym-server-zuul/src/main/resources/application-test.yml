@@ -1,0 +1,47 @@
+server:
+  port: 6020
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin-test:Hrym201809@localhost:8761/eureka/eureka
+logging:
+  config: classpath:logback.xml
+spring:
+  application:
+    name: hrym-server-zuul
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+#禁用SendErrorFilter过滤器，此过滤器会跳转错误页面，导致结果输出不了
+#SendErrorFilter里面的dispatcher.forward(request, ctx.getResponse())会启用writer，导致post里面write返回结果的时候报错：
+#Java.lang.IllegalStateException: getWriter() has already been called for this response
+zuul:
+  routes:
+    hrym-application-hgx:
+      path: /hrym-application-hgx/**
+      serviceId: hrym-application-hgx
+
+#    hrym-application-flock:
+#      path: /flock/**
+#      serviceId: HRYM-APPLICATION-FLOCK
+
+
+#  SendErrorFilter:
+#    error:
+#      disable:
+#        true
+  sensitive-headers: "*"
+
+#配置超时时间，断点调试，上传大文件等容易超时
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+
+management.endpoints.web.exposure.include: '*'
+
+ribbon:
+  ConnectTimeout: 30000
+  ReadTimeout: 60000
+
+
+
+

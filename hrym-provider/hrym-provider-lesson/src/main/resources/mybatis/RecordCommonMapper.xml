@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.everg.hrym.provider.lesson.mapper.RecordCommonMapper">
+
+    <insert id="insertBookRecord">
+        insert into t_task_record_book(task_id,user_id,report_num,report_time,item_id,percent,record_method,ymd,`year`,`month`)
+        values
+        (#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{percent},#{recordMethod},
+        from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+    </insert>
+    <insert id="saveCustomRecord">
+        insert t_task_record_custom(task_id,user_id,report_num,report_time,item_id,record_method,record_status,ymd,year,month)
+        values(#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{recordMethod},#{recordStatus},
+        from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+    </insert>
+    <insert id="saveLessonRecord">
+        insert t_task_record_lesson(task_id,user_id,report_num,report_time,item_id,record_method,item_content_id,record_status,ymd,year,month)
+        values(#{taskId},#{userId},#{reportNum},#{reportTime},#{itemId},#{recordMethod},#{itemContentId},#{recordStatus},
+        from_unixtime(unix_timestamp(now()), '%Y%m%d'),year(CURRENT_DATE),month(CURRENT_DATE))
+    </insert>
+    <update id="updateBookHistoryRecordNum">
+        update t_task_record_book
+        set report_num = #{num}
+        where task_id = #{taskId} and record_method = 5
+    </update>
+    <update id="updateCustomHistoryRecordNum">
+        update t_task_record_custom
+        set report_num = #{reportNum}
+        where task_id = #{taskId} and record_method = 5
+    </update>
+    <update id="updateLessonHistoryRecordNum">
+        update t_task_record_lesson
+        set report_num = #{reportNum}
+        where task_id = #{taskId} and record_method = 5
+
+    </update>
+    <delete id="removeByPrimaryKey">
+        delete from ${tableName}
+        where
+        record_id = #{parentId}
+    </delete>
+    <select id="queryByUuidAndItemIdAndItemIdAndTypeAndTableName" resultType="java.lang.Long">
+        select sum(report_num)
+        from ${tableName}
+        where task_id = #{taskId}
+        <include refid="base_selfCard"/>
+    </select>
+    <select id="queryRecordByTaskId" resultType="com.everg.hrym.api.lesson.entity.RecordCommon">
+        select record_id,task_id,user_id,report_num,report_time,`year`,record_method,ymd
+        from ${tableName}
+        where task_id = #{taskId}
+        order by field(record_method,5) desc , report_time desc
+    </select>
+    <select id="queryReportCount" resultType="java.lang.Integer">
+        select count(record_id) from ${tableName}
+        where user_id = #{userId} and task_id = #{taskId}
+    </select>
+
+    <select id="queryBookHistoryRecord" resultType="java.lang.Integer">
+        select report_num
+        from t_task_record_book
+        where task_id = #{taskId} and record_method = 5
+    </select>
+    <select id="queryCustomHistoryRecordNum" resultType="java.lang.Long">
+        select report_num
+        from t_task_record_custom
+        where task_id = #{taskId} and record_method = 5
+    </select>
+    <select id="queryLessonHistoryRecordNum" resultType="java.lang.Long">
+        select report_num
+        from t_task_record_lesson
+        where task_id = #{taskId} and record_method = 5
+    </select>
+
+    <sql id="base_selfCard">
+        <if test="timeType==0">
+            and `ymd` = #{format}
+        </if>
+        <if test="timeType==1">
+            and `month` = #{format}
+        </if>
+        <if test="timeType==2">
+            and `year` = #{format}
+        </if>
+        <if test="timeType==5">
+            and `report_time` > #{format}
+        </if>
+    </sql>
+
+
+    <!--合并账号 更新数据-->
+    <update id="updateUuidOfRecord">
+         update t_task_record_custom set user_id = #{uuid} where user_id=#{oldUuid}"
+    </update>
+
+</mapper>

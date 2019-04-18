@@ -1,0 +1,39 @@
+spring:
+  sleuth:
+    traceId128: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  redis:
+    host:  192.168.1.28
+    password: 123456
+    port: 6379
+    ssl: false
+    timeout: 300
+    jedis:
+      pool:
+        max-active: 800
+        max-idle: 20
+        max-wait: -1
+        min-idle: 0
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+
+#eureka放在这里是因为config会从eureka里面读取
+#eureka放在这里是因为config会从eureka里面读取
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin-test:Hrym201809@localhost:8761/eureka/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+
+feign:
+  httpclient:
+    connection-timeout: 1000000

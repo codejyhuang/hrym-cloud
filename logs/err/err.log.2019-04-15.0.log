@@ -1,0 +1,685 @@
+2019-04-15 09:25:58,915 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:26:16,007 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:26:28,636 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:26:45,945 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:26:58,645 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:15,956 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:21,253 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:28,655 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:31,581 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:41,624 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:51,208 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:27:58,662 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:11,564 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:21,214 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:28,670 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:41,574 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:51,222 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:28:58,671 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:11,588 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:21,228 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:28,687 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:44,361 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:51,231 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:29:58,685 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:14,367 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:21,237 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:28,695 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:44,382 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:51,255 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:30:58,698 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:14,377 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:21,248 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:28,708 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:44,388 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:51,256 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:31:58,709 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:14,391 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:21,251 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:28,704 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:44,392 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:51,259 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:32:58,713 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:14,396 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:21,265 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:28,718 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:44,401 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:51,272 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:33:58,718 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:34:14,404 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 09:34:19,157 ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient] [] []- Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2019-04-15 09:34:19,158 ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient] [] []- Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 common frames omitted
+2019-04-15 11:28:57,745 ERROR [org.apache.catalina.core.StandardService] [] []- Failed to start connector [Connector[HTTP/1.1-8761]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8761]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:261)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.everg.hrym.server.eureka.EurekaServerApplication.main(EurekaServerApplication.java:18)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1160)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2019-04-15 11:28:57,766 ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [] []- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8761 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8761, or configure this application to listen on another port.
+
+2019-04-15 13:11:58,715 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:12:28,306 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:12:52,531 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:12:58,307 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:13:22,473 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:13:28,320 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:13:52,487 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:13:58,332 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:14:22,564 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:14:28,337 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:14:52,581 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:14:58,342 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:15:22,586 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:15:28,353 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:15:52,590 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:15:58,362 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:16:22,601 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:16:28,370 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:16:29,320 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:16:44,548 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:16:45,096 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:17:14,495 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:17:44,484 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:18:14,480 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:18:44,487 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:19:14,490 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:19:30,655 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:19:44,499 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:19:55,910 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:20:14,506 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:20:16,482 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:20:44,513 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:20:46,440 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:21:14,519 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:21:16,445 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:21:44,536 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:21:46,455 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:21:55,124 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:22:11,337 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:22:16,460 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:22:41,283 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:22:46,473 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:23:11,296 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:23:16,481 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:23:41,292 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:23:46,484 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:24:11,305 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:24:16,493 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:24:41,319 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:24:46,502 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:25:11,322 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:25:16,506 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:25:33,933 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:25:41,320 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:25:45,020 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:26:11,332 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:26:14,966 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:26:41,347 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:26:44,976 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:11,351 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:14,985 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:17,164 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:28,861 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:41,361 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:27:58,805 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:28:11,368 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:28:28,814 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:28:41,371 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:28:58,824 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:29:11,382 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:29:28,833 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:29:41,393 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:29:49,972 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:29:58,841 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:30:03,871 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:30:05,961 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:30:16,310 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:30:35,879 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:30:46,283 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:31:05,882 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:31:16,292 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:31:35,896 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:31:46,305 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:32:05,902 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:32:16,305 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:32:35,914 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:32:46,313 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:33:05,916 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:33:16,327 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:33:35,926 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:33:46,332 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:33:47,201 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:34:04,705 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:34:16,338 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:34:34,637 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:34:46,321 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:35:04,623 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:35:16,323 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:35:34,631 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:35:46,328 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:36:04,635 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:36:16,344 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:36:34,651 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:36:46,345 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:37:04,647 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:37:16,352 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:37:34,663 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:37:46,353 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:38:04,665 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:38:16,372 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:38:34,679 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:38:46,369 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:39:04,688 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 2 replication tasks
+2019-04-15 13:39:16,382 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:39:38,848 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:39:43,033 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:39:55,302 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:40:08,795 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:40:29,898 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:40:38,798 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:40:59,904 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:41:08,805 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:41:29,917 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:41:38,817 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:41:59,920 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:42:08,831 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:42:29,925 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:42:38,836 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:42:59,936 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:43:08,841 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:43:29,949 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:43:38,848 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:43:59,958 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:44:08,859 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:44:29,958 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:44:38,862 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:44:59,967 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:45:08,873 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:45:29,969 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:45:38,881 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:45:59,979 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:46:08,882 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:46:29,995 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:46:38,892 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:46:51,411 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:46:59,999 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:47:06,716 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:47:07,584 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:47:18,617 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:47:36,661 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:47:48,565 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:48:06,665 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:48:18,570 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:48:36,676 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:48:48,574 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:49:06,681 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:49:18,577 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:49:36,696 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:49:48,586 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:50:06,679 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:50:18,575 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:50:36,687 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:50:48,576 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:51:06,696 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:51:18,575 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:51:36,691 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:51:48,584 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:52:06,698 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:52:18,585 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:52:36,712 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:52:48,604 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:53:06,951 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:53:18,610 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:53:36,950 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:53:48,617 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:54:06,965 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:54:18,620 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:54:36,968 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:54:48,629 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:55:06,975 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:55:18,631 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:55:36,981 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:55:48,642 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:56:06,981 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:56:18,651 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:56:36,991 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:56:48,646 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:57:06,993 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:57:18,663 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:57:36,996 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:57:48,664 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:58:06,999 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:58:18,668 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:58:37,006 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:58:48,679 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:59:07,011 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:59:18,682 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:59:37,019 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 13:59:48,698 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:00:07,031 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:00:18,698 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:00:37,040 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:00:48,712 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:01:07,043 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:01:18,721 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:01:37,045 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:01:48,724 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:02:07,054 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:02:18,725 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:02:37,070 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:02:48,730 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:03:07,075 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:03:18,741 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:03:20,306 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:03:48,749 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:04:00,034 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:04:18,761 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:04:29,977 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:04:48,767 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:04:59,993 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:05:18,772 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:05:29,997 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:05:48,772 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:05:59,998 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:06:18,767 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:06:29,998 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:06:48,779 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:06:59,997 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:07:18,783 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:07:30,005 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:07:35,096 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:07:48,790 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:07:51,967 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:08:17,948 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:08:21,912 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:08:28,535 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:08:51,911 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:08:58,480 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:09:21,926 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:09:28,487 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:09:51,929 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:09:58,496 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:10:21,938 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:10:28,506 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:10:32,296 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:10:48,671 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:10:58,508 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:11:18,619 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 2 replication tasks
+2019-04-15 14:11:28,512 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:11:34,231 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:11:58,522 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:12:04,177 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:12:12,754 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:12:28,222 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 2 replication tasks
+2019-04-15 14:12:29,510 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:12:39,988 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:12:58,165 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:09,930 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:18,684 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:35,548 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:39,933 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:43,329 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:13:53,419 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:14:05,495 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:14:23,365 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:14:28,413 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:14:44,240 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:14:53,378 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:15:14,178 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:15:31,279 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:15:44,189 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:01,286 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:14,187 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:29,646 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:31,295 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:45,232 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:45,856 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:16:58,555 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:17:15,173 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:17:28,511 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:17:47,447 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:17:58,510 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:18:24,858 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:18:28,522 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:18:55,221 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:18:58,533 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:19:25,221 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:19:28,530 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:19:55,234 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:19:58,546 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:20:25,240 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:20:28,548 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:20:55,248 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:20:58,560 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:21:25,245 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:21:28,557 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:21:55,245 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:21:58,564 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:22:25,258 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:22:28,564 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:22:55,260 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:22:58,577 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:23:25,267 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:23:28,573 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:23:55,282 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:23:58,580 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:24:10,797 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:24:26,781 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:24:28,588 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:24:56,725 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:24:58,605 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:25:26,738 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:25:28,607 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:25:48,624 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:25:51,413 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:26:08,687 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:26:38,633 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:27:08,641 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:27:38,651 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:28:08,655 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:28:38,670 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:29:08,672 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:29:38,676 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:30:08,682 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:37:45,889 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:38:15,596 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:38:45,589 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 14:39:15,591 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 17:22:11,324 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 17:22:24,503 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 17:22:27,687 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:34:49,127 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:35:04,120 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:35:18,872 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:35:34,067 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:35:48,881 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:36:04,070 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:36:18,893 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:36:34,081 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:36:48,899 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:37:04,097 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:37:18,905 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:37:34,099 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:37:48,914 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:37:50,025 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:02,036 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:04,091 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:18,919 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:31,966 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:34,049 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:38:48,932 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:01,986 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:04,059 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:18,935 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:28,974 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:31,994 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:34,066 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:44,695 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:39:55,824 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:02,001 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:04,072 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:14,049 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:17,344 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:32,008 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:34,013 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 2 replication tasks
+2019-04-15 19:40:47,928 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:40:59,154 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:02,386 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:03,953 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:11,074 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:29,099 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:33,966 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:41,045 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:41:59,109 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:03,968 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:11,045 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:29,118 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:33,976 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:41,047 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:53,540 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:42:59,128 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:43:10,054 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:43:11,060 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:43:29,131 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:43:33,351 ERROR [com.netflix.eureka.cluster.ReplicationTaskProcessor] [] []- Batch update failure with HTTP status code 404; discarding 1 replication tasks
+2019-04-15 19:43:37,885 ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient] [] []- Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+2019-04-15 19:43:37,886 ERROR [com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient] [] []- Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 common frames omitted

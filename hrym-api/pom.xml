@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hrym.everg</groupId>
+        <artifactId>hrym-cloud</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.hrym.everg</groupId>
+    <artifactId>hrym-api</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>hrym-api-flock</module>
+        <module>hrym-api-lesson</module>
+        <module>hrym-api-user</module>
+        <module>hrym-api-pray</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-common-support</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>
