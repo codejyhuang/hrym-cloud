@@ -13,6 +13,10 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-api-user</artifactId>
+        </dependency>
 
     </dependencies>
 </project>

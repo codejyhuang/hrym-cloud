@@ -11,5 +11,32 @@
 
     <artifactId>hrym-application-zn</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-api-flock</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-api-lesson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-api-user</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-api-pray</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-common-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hrym.everg</groupId>
+            <artifactId>hrym-common-support</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

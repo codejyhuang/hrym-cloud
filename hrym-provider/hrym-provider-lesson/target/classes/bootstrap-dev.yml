@@ -11,3 +11,23 @@ spring:
         max-attempts: 6
         max-interval: 2000
         multiplier: 1.1
+  application:
+    name: hrym-provider-lesson
+  autoconfigure:
+    exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
+mybatis-plus:
+  mapper-locations: classpath*:mybatis/*.xml
+server:
+  port: 8082
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+
+#配置超时时间，断点调试，上传大文件等容易超时
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 600000
+
+
+
+
