@@ -17,10 +17,12 @@
             <groupId>com.hrym.everg</groupId>
             <artifactId>hrym-api-user</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.hrym.everg</groupId>
             <artifactId>hrym-api-lesson</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.hrym.everg</groupId>
             <artifactId>hrym-api-flock</artifactId>

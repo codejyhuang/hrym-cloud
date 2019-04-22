@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <dependencies>
-
+        <!--动态刷新配置依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -23,7 +23,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>com.hrym.everg</groupId>
             <artifactId>hrym-common-core</artifactId>
@@ -36,6 +36,7 @@
         <module>hrym-server-zuul</module>
         <module>hrym-server-tm</module>
         <module>hrym-server-zipkin</module>
+        <module>hrym-server-config</module>
     </modules>
 
     <build>

@@ -1,21 +1,29 @@
-server:
-  port: 6020
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://admin:123456@localhost:8761/eureka/eureka
-  instance:
-      prefer-ip-address: true
-      instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
-logging:
-  config: classpath:logback.xml
 spring:
   application:
     name: hrym-server-zuul
+  cloud:
+    config:
+      profile: test
+      label: master
+      name: eureka
+      uri: http://127.0.0.1:5588/
+      fail-fast: true
+      retry:
+        initial-interval: 1000
+        max-attempts: 6
+        max-interval: 2000
+        multiplier: 1.1
   servlet:
     multipart:
       max-file-size: 10MB
       max-request-size: 20MB
+server:
+  port: 6020
+
+logging:
+  config: classpath:logback.xml
+
+
 #禁用SendErrorFilter过滤器，此过滤器会跳转错误页面，导致结果输出不了
 #SendErrorFilter里面的dispatcher.forward(request, ctx.getResponse())会启用writer，导致post里面write返回结果的时候报错：
 #Java.lang.IllegalStateException: getWriter() has already been called for this response

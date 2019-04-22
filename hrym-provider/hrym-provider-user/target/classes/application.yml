@@ -7,5 +7,10 @@ spring:
       exclude: com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure
 mybatis-plus:
   mapper-locations: classpath*:mybatis/*.xml
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
 
 
