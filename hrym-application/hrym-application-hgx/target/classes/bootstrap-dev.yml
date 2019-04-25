@@ -12,7 +12,7 @@ spring:
         max-interval: 2000
         multiplier: 1.1
   application:
-    name: hrym-provider-hgx
+    name: hrym-application-hgx
 
 server:
   port: 8081

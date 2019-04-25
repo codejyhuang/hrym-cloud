@@ -16,6 +16,14 @@
         <version>2.0.8.RELEASE</version>
     </parent>
 
+    <modules>
+        <module>hrym-api</module>
+        <module>hrym-application</module>
+        <module>hrym-server</module>
+        <module>hrym-common</module>
+        <module>hrym-provider</module>
+    </modules>
+
 
     <properties>
         <project.build.sourceencoding>UTF-8</project.build.sourceencoding>

@@ -4,7 +4,7 @@ spring:
       profile: dev
       label: master
       name: redis,eureka,zipkin
-      uri: http://127.0.0.1:5588/
+      uri: http://192.168.1.210:5588/
       fail-fast: true
       retry:
         initial-interval: 1000
@@ -12,7 +12,7 @@ spring:
         max-interval: 2000
         multiplier: 1.1
   application:
-    name: hrym-provider-hgx
+    name: hrym-application-hgx
 
 server:
   port: 8081
