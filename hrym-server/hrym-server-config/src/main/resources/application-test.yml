@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/codejyhuang/hrym-config.git #配置Git仓库位置。
-          searchPaths: config #配置仓库路径下的相对搜索位置，可以配置多个。
-          username: codejyhuang #访问 Git 仓库的用户名。
-          password: ann863+-hjy.. #访问 Git 仓库的用户密码。
+          uri: http://123.58.37.93:9900/root/hrym-config-server.git #配置Git仓库位置。
+          searchPaths: config-repo #配置仓库路径下的相对搜索位置，可以配置多个。
+          username: hrym_env #访问 Git 仓库的用户名。
+          password: hrym201809 #访问 Git 仓库的用户密码。
           label: master #配置仓库的分支
 eureka:
   client:
