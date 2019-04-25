@@ -30,7 +30,7 @@ logging:
 zuul:
   routes:
     hrym-application-hgx:
-      path: /hgx-application/**
+      path: /hrym-application-hgx-test/**
       serviceId: hrym-application-hgx
 
   sensitive-headers: "*"
